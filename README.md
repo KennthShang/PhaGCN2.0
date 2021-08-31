@@ -96,33 +96,16 @@ After running it, rename **contig.F** in the Cyber_data folder to **dataset_comp
 If you want to use PhaGCN, you need to take care of three things:
 1. Make sure all your contigs are virus contigs. You can sperate bacteria contigs by using [VirSorter](https://github.com/simroux/VirSorter) or [DeepVirFinder](https://github.com/jessieren/DeepVirFinder)
 2. The script will pass contigs with non-ACGT characters, which means those non-ACGT contigs will be remained unpredict.
-3. if the program output an error (which is caused by your machine): Error: mkl-service + Intel(R) MKL: MKL_THREADING_LAYER=INTEL is incompatible with libgomp.so.1 library. You can type in the command `export MKL_SERVICE_FORCE_INTEL=1` before runing **run_Speed_up.py**
-=======
-If you want to use PhaGCN, you need to take care of two things:
-1. Make sure all your contigs are virus contigs. You can separate bacteria contigs by using [VirSorter](https://github.com/simroux/VirSorter) or [DeepVirFinder](https://github.com/jessieren/DeepVirFinder)
-2. The script will pass contigs with non-ACGT characters, which means those non-ACGT contigs will be remained unpredict.
-3. if the program output an error (which is caused by your machine):
-`Error: mkl-service + Intel(R) MKL: MKL_THREADING_LAYER=INTEL is incompatible with libgomp.so.1 library.`
-You can type in the command `export MKL_SERVICE_FORCE_INTEL=1` before runing *run_Speed_up.py*
->>>>>>> 8e154ac456181bf1c3ee964d3286a21825aa2884
+3. if the program output an error (which is caused by your machine): Error: mkl-service + Intel(R) MKL: MKL_THREADING_LAYER=INTEL is incompatible with libgomp.so.1 library.
+You can type in the command `export MKL_SERVICE_FORCE_INTEL=1` before runing **run_Speed_up.py**
+
 
 # References
 how to cite this tool:
 ```
-<<<<<<< HEAD
 Jiayu Shang, Jingzhe Jiang and Yanni Sun, Bacteriophage classification for assembled contigs using Graph Convolutional Network, submitted to ISMB 2021
 
 Or
 
 Shang, J., Jiang, J., & Sun, Y. (2021). Bacteriophage classification for assembled contigs using Graph Convolutional Network. arXiv preprint arXiv:2102.03746.
 ```
-=======
-Jiayu Shang, Jingzhe Jiang, Yanni Sun, Bacteriophage classification for assembled contigs using graph convolutional network, Bioinformatics, Volume 37, Issue Supplement_1, July 2021, Pages i25–i33, https://doi.org/10.1093/bioinformatics/btab293
-```
-
-## Supplementary information
-The supplementary file of the paper can be found in the supplementary folder.
-
-## Contact
-If you have any questions, please email us: jyshang2-c@my.cityu.edu.hk
->>>>>>> 8e154ac456181bf1c3ee964d3286a21825aa2884
