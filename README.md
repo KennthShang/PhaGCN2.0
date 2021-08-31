@@ -21,11 +21,11 @@ If you want to use the gpu to accelerate the program:(if you want to train your 
 We recommend you to install all the package with Anaconda.
 After cloning this respository, you can use anaconda to install the **environment.yaml**. This will install all packages you need with gpu mode (make sure you have installed cuda on your system).
 We recommend you to install all the package with Anaconda.The command that you need to run is 
-`conda env create -f environment.yaml`
-
-`conda activate py3.6`
-
-`pip install sklearn`
+```bash
+conda env create -f environment.yaml
+conda activate py3.6
+pip install sklearn
+```
 
 and you can use it to make virus classification.
 
@@ -33,7 +33,9 @@ and you can use it to make virus classification.
 # Usage (example)
 Here we present an example to show how to run PhaGCN. We support a file named "contigs.fa" in the Github folder and it contain contigs simulated from E. coli phage. The only command that you need to run is 
 
-`python run_Speed_up.py --contigs contigs.fa --len 8000`
+```bash
+$ python run_Speed_up.py --contigs contigs.fa --len 8000
+```
 
 There are two parameters for the program: 
 1. `--contigs` is the path of your contigs file. 
@@ -49,15 +51,13 @@ In the **Network** folder will generate a network map file, you can use this fil
 Now we support that you can train your own virus classification database.
 if you want train your own virus classification database, follow these steps.
 first of all,you need with gpu mode (make sure you have installed cuda on your system)and  run 
-`pip install bio`
-
-`pip install torch`
-
-`sudo apt install prodigal`
-
-`cd CHEER`
-
-`sh creat.sh`
+```bash
+pip install bio
+pip install torch
+sudo apt install prodigal
+cd CHEER
+sh creat.sh
+```
 
 1. Step one:
 In this step,you need make your virus sequences (Known families)in different folder, dividing to training set and validation set.Make sure your virus sequence is longer than 1700BP.(If you have a segmented virus, combine it into a single sequence,Otherwise, it will be divided into several different kinds of viruses)
@@ -65,19 +65,23 @@ Take ICTV 2021 year reporter（https://talk.ictvonline.org/taxonomy/vmr/m/vmr-fi
 Randomly divide 9 out of 10 sequences to do the training set and 1 to do the test set.Combine the nine training set sequences into a sequence file named Lipothrixviridae and place it in the train folder.Combine the one validation set sequences into a sequence file named Lipothrixviridae and place it in the validation folder.The same goes for the other family.(Ensure that the validation set is non-empty).
 
 Preprocess your data set:
-`bash code/re_train_script.sh`
+```bash
+$ bash code/re_train_script.sh
+```
 
 Train your data set CNN model
-`python3 train.py --n 8 --gpus 1 --weight "1,1,1,1,1,1,1,1"`
-
+```bash
+$ python3 train.py --n 8 --gpus 1 --weight "1,1,1,1,1,1,1,1"
+```
 `--n` is the number of your families,`--weight` is the  weight coefficient，The number of numbers in weight is equal to the number of n `--gpu` is the number of Gpus you have
 This will produce two files **Embed.pkl** and **Params.pkl**,Replace the two files with the same name in the **CNN_Classifier** folder.It requires around 250GB of memory(The larger the data set, the more memory is required).
 
 2. Step two:
 Merge all sequence files into one file and name it **all_pre.fasta**,then move it into 
 **CHEER** folder.Then run:
-`python3 deal_all_pre.py`
-
+```bash
+$ python3 deal_all_pre.py
+```
 Please modify your data set until no label error is reported(The label should contain at least one space).
 Take the sequence number and corresponding family name in a TXT text and named **taxa.txt** (separated by tabs)then place it in the CHEER folder.Run:
 `python3 deal_result.py`
@@ -86,7 +90,9 @@ It generates a folder of result,in this folder replaces the first line of **daim
 3. Step three:
 Change the default n on line 76 of **run_CNN.py** to the number of `--n` in step two
 Copy **all_simple_pre.fasta** to your **PhaGCN** folder and run():
-`python3 pre_train.py --contig all_simple_pre.fasta --len 1700`
+```bash
+$ python3 pre_train.py --contig all_simple_pre.fasta --len 1700
+```
 
 After running it, rename **contig.F** in the Cyber_data folder to **dataset_compressF** and replace the file with the same name in the **database** folder.
 
