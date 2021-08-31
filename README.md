@@ -84,8 +84,9 @@ $ python3 deal_all_pre.py
 ```
 Please modify your data set until no label error is reported(The label should contain at least one space).
 Take the sequence number and corresponding family name in a TXT text and named **taxa.txt** (separated by tabs)then place it in the CHEER folder.Run:
-`python3 deal_result.py`
-
+```bash
+$ python3 deal_result.py`
+```
 It generates a folder of result,in this folder replaces the first line of **daima.txt** with line 159 of **run_GCN.py** in the body of PhaGCN, and the second line with line 643 of **run_Knowledgegraph.py**,The other five files replace each of the five files in the **database** folder.
 3. Step three:
 Change the default n on line 76 of **run_CNN.py** to the number of `--n` in step two
