@@ -1,0 +1,16 @@
+mv ALL_gene_to_genomes.csv result/ALL_gene_to_genomes.csv
+mv ALL_genome_profile.csv result/ALL_genome_profile.csv
+mv ALL_protein.fasta result/ALL_protein.fasta
+mv reference_name_id.csv result/reference_name_id.csv
+mv taxonomic_label.csv result/taxonomic_label.csv
+mv daima.txt result/daima.txt
+rm -rf input
+rm -rf 0014_protein.fasta
+rm -rf ALL.fasta
+rm -rf daimahang1.txt
+rm -rf daimahang2.txt
+rm -rf jieguo1.txt
+rm -rf jieguo2.txt
+rm -rf protein.py
+rm -rf result1.txt
+rm -rf taxonomic_label.txt

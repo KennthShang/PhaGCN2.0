@@ -30,7 +30,6 @@ def check_folder(file_name):
 check_folder("input")
 check_folder("pred")
 check_folder("Split_files")
-check_folder("other")
 check_folder("network")
 
 try:

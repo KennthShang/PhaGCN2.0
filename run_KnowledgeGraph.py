@@ -742,20 +742,7 @@ for node in G.nodes:
             label[test_to_id[node]] = neighbor_label[0]
             cnt += 1
 
-group_other = {}
-group = 0
-with open("other/other_group_"+str(args.n)+".csv", 'w') as file_out:
-    file_out.write("contig_id,group\n")
-    for sub in nx.connected_components(G):
-        flag = 0
-        for item in sub:
-            if "~" in item:
-                flag = 1
-        if not flag:
-            for item in sub:
-                group_other[item] = group
-                file_out.write(item+","+str(group) +'\n')
-            group += 1
+
 
 with open("network/phage_"+str(args.n)+".ntw","w") as out_f:
     for node in G.nodes:

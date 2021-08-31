@@ -1,7 +1,7 @@
 import  argparse
 
 args = argparse.ArgumentParser()
-args.add_argument('--dataset', default='cora')
+args.add_argument('--database', default='Caudoviridae')
 args.add_argument('--model', default='gcn')
 args.add_argument('--learning_rate', type=float, default=0.01)
 args.add_argument('--epochs', type=int, default=200)

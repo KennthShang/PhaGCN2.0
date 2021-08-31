@@ -1,0 +1,11 @@
+mkdir dataset
+mkdir filtered_train
+mkdir filtered_val
+mkdir int_train
+mkdir int_val
+mkdir split_long_reads_train
+mkdir split_long_reads_val
+mkdir stride50_train
+mkdir stride50_val
+mkdir train
+mkdir validation
