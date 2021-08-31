@@ -99,7 +99,6 @@ After running it, rename **contig.F** in the Cyber_data folder to **dataset_comp
 
 (See the **CHEER/train_example** folder for an example)
 # Notice
-<<<<<<< HEAD
 If you want to use PhaGCN, you need to take care of three things:
 1. Make sure all your contigs are virus contigs. You can sperate bacteria contigs by using [VirSorter](https://github.com/simroux/VirSorter) or [DeepVirFinder](https://github.com/jessieren/DeepVirFinder)
 2. The script will pass contigs with non-ACGT characters, which means those non-ACGT contigs will be remained unpredict.
