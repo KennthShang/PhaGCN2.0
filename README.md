@@ -20,7 +20,6 @@ If you want to use the gpu to accelerate the program:(if you want to train your 
 # An easiler way to install
 We recommend you to install all the package with Anaconda.
 After cloning this respository, you can use anaconda to install the **environment.yaml**. This will install all packages you need with gpu mode (make sure you have installed cuda on your system).
-<<<<<<< HEAD
 We recommend you to install all the package with Anaconda.The command that you need to run is 
 =======
 `conda env create -f environment.yaml`
@@ -30,8 +29,6 @@ We recommend you to install all the package with Anaconda.The command that you n
 `pip install sklearn`
 
 and you can use it to make virus classification.
-=======
-`conda env create -f environment.yaml`
 
 
 # Usage (example)
