@@ -22,15 +22,17 @@ We recommend you to install all the package with Anaconda.
 After cloning this respository, you can use anaconda to install the **environment.yaml**. This will install all packages you need with gpu mode (make sure you have installed cuda on your system).
 <<<<<<< HEAD
 We recommend you to install all the package with Anaconda.The command that you need to run is 
-
+=======
 `conda env create -f environment.yaml`
+=======
 `conda activate py3.6`
+=======
 `pip install sklearn`
 
 and you can use it to make virus classification.
 =======
 `conda env create -f environment.yaml`
->>>>>>> 8e154ac456181bf1c3ee964d3286a21825aa2884
+
 
 # Usage (example)
 Here we present an example to show how to run PhaGCN. We support a file named "contigs.fa" in the Github folder and it contain contigs simulated from E. coli phage. The only command that you need to run is 
