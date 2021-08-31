@@ -21,11 +21,10 @@ If you want to use the gpu to accelerate the program:(if you want to train your 
 We recommend you to install all the package with Anaconda.
 After cloning this respository, you can use anaconda to install the **environment.yaml**. This will install all packages you need with gpu mode (make sure you have installed cuda on your system).
 We recommend you to install all the package with Anaconda.The command that you need to run is 
-=======
 `conda env create -f environment.yaml`
-=======
+
 `conda activate py3.6`
-=======
+
 `pip install sklearn`
 
 and you can use it to make virus classification.
@@ -51,13 +50,13 @@ Now we support that you can train your own virus classification database.
 if you want train your own virus classification database, follow these steps.
 first of all,you need with gpu mode (make sure you have installed cuda on your system)and  run 
 `pip install bio`
-=======
+
 `pip install torch`
-=======
+
 `sudo apt install prodigal`
-=======
+
 `cd CHEER`
-=======
+
 `sh creat.sh`
 
 1. Step one:
