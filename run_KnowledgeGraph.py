@@ -166,9 +166,9 @@ db_fp = "database/database.dmnd"
 diamond_out_fn = '{}.diamond.tab'.format(os.path.basename(proteins_aa_fp).rsplit('.', 1)[0])
 diamond_out_fp = os.path.join(out_f, diamond_out_fn)
 # Create database
-_ = make_diamond_db(8)
+_ = make_diamond_db(64)
 # Run BLASTP
-similarity_fp = run_diamond(proteins_aa_fp, db_fp, 8, diamond_out_fp)
+similarity_fp = run_diamond(proteins_aa_fp, db_fp, 64, diamond_out_fp)
 
 # capture the query, referencde, e-value from diamond output
 contig_abc_fp = out_f + diamond_out_fn + ".abc"

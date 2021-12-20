@@ -218,7 +218,7 @@ g1.close()
 g2.close()
 f1 = open("jieguo1.txt","r")
 f2 = open("jieguo2.txt","r")
-g1 = open("daima.txt","w")
+g1 = open("code.txt","w")
 def duohanghebing1(f,g):
     a = ''  # 空字符（中间不加空格）
     for line in f:

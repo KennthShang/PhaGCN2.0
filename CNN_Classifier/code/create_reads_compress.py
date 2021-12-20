@@ -7,6 +7,7 @@ def create_reads(file_name):
     new_record = []
     for record in SeqIO.parse("validation/"+file_name, "fasta"):
         seq = record.seq
+        seq = seq.upper()
         if len(seq) > 1700:
             for i in range(0, len(seq), 1700):
                 if i + 1700 > len(seq):

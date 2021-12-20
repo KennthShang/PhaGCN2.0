@@ -22,11 +22,18 @@ We recommend you to install all the package with Anaconda.
 After cloning this respository, you can use anaconda to install the **environment.yaml**. This will install all packages you need with gpu mode (make sure you have installed cuda on your system).
 We recommend you to install all the package with Anaconda.The command that you need to run is 
 ```bash
+cd PhaGCN
 conda env create -f environment.yaml
 conda activate py3.6
 pip install sklearn
 ```
 
+You need to prepare the database before using it.
+```bash
+cd database
+tar -zxvf ALL_protein.tar.gz
+cd ..
+```
 and you can use it to make virus classification.
 
 
@@ -49,8 +56,9 @@ In the **Network** folder will generate a network map file, you can use this fil
 
 # New function
 Now we support that you can train your own virus classification database.
-if you want train your own virus classification database, follow these steps.
-first of all,you need with gpu mode (make sure you have installed cuda on your system)and  run 
+If you want train your own virus classification database, follow these steps.
+
+First of all,you need with gpu mode (make sure you have installed cuda on your system)and  run 
 ```bash
 pip install bio
 pip install torch
@@ -87,7 +95,7 @@ Take the sequence number and corresponding family name in a TXT text and named *
 ```bash
 $ python3 deal_result.py`
 ```
-It generates a folder of result,in this folder replaces the first line of **daima.txt** with line 159 of **run_GCN.py** in the body of PhaGCN, and the second line with line 643 of **run_Knowledgegraph.py**,The other five files replace each of the five files in the **database** folder.
+It generates a folder of result,in this folder replaces the first line of **code.txt** with line 159 of **run_GCN.py** in the body of PhaGCN, and the second line with line 643 of **run_Knowledgegraph.py**,The other five files replace each of the five files in the **database** folder.
 3. Step three:
 Change the default n on line 76 of **run_CNN.py** to the number of `--n` in step two
 Copy **all_simple_pre.fasta** to your **PhaGCN** folder and run():
@@ -104,6 +112,7 @@ If you want to use PhaGCN, you need to take care of three things:
 2. The script will pass contigs with non-ACGT characters, which means those non-ACGT contigs will be remained unpredict.
 3. if the program output an error (which is caused by your machine): Error: mkl-service + Intel(R) MKL: MKL_THREADING_LAYER=INTEL is incompatible with libgomp.so.1 library.
 You can type in the command `export MKL_SERVICE_FORCE_INTEL=1` before runing **run_Speed_up.py**
+4. If you want train your own virus classification database,Hardware requirements can be considerable(exceeding 48 GB,and at least one GPU), depending mainly on the size and complexity of the dataset. (Relationship between memory requirements and sequences analyzed forthcoming)
 
 
 # References
