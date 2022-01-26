@@ -52,6 +52,8 @@ except:
 ##########################    Start Program  ########################
 #####################################################################
 
+def special_match(strg, search=re.compile(r'[^ACGT]').search):
+    return not bool(search(strg))
 
 
 cnt = 0
@@ -65,12 +67,14 @@ for record in SeqIO.parse(args.contigs, 'fasta'):
         cnt = 0
     seq = str(record.seq)
     seq = seq.upper()
-    if len(seq) > args.len:
-        records.append(record)
-        cnt+=1
+    if special_match(seq):
+        if len(record.seq) > args.len:
+            records.append(record)
+            cnt+=1
 
 SeqIO.write(records, "Split_files/contig_"+str(file_id)+".fasta","fasta")
 file_id+=1
+
 
 for i in range(file_id):
     cmd = "mv Split_files/contig_"+str(i)+".fasta input/"
