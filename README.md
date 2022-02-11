@@ -1,6 +1,6 @@
-# PhaGCN
+# PhaGCN2
 
-PhaGCN is a GCN based model, which can learn the species masking feature via deep learning classifier, for new Phage taxonomy classification. To use PhaGCN, you only need to input your contigs to the program.
+PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
 
 # Required Dependencies
 * Python 3.x
@@ -22,7 +22,7 @@ We recommend you to install all the package with Anaconda.
 After cloning this respository, you can use anaconda to install the **environment.yaml**. This will install all packages you need with gpu mode (make sure you have installed cuda on your system).
 We recommend you to install all the package with Anaconda.The command that you need to run is 
 ```bash
-cd PhaGCN
+cd PhaGCN2.0
 conda env create -f environment.yaml -n phagcn2
 conda activate phagcn2
 pip install sklearn
@@ -38,7 +38,7 @@ and you can use it to make virus classification.
 
 
 # Usage (example)
-Here we present an example to show how to run PhaGCN. We support a file named "contigs.fa" in the Github folder and it contain contigs simulated from E. coli phage. The only command that you need to run is 
+Here we present an example to show how to run PhaGCN2. We support a file named "contigs.fa" in the Github folder and it contain contigs simulated from E. coli phage. The only command that you need to run is 
 
 ```bash
 $ python run_Speed_up.py --contigs contigs.fa --len 8000
@@ -86,6 +86,7 @@ This will produce two files **Embed.pkl** and **Params.pkl**,Replace the two fil
 
 2. Step two:
 Merge all sequence files into one file and name it **all_pre.fasta**,then move it into 
+
 **CHEER** folder.Then run:
 ```bash
 $ python3 deal_all_pre.py
@@ -115,12 +116,4 @@ You can type in the command `export MKL_SERVICE_FORCE_INTEL=1` before runing **r
 4. If you want train your own virus classification database,Hardware requirements can be considerable(exceeding 48 GB,and at least one GPU), depending mainly on the size and complexity of the dataset. (Relationship between memory requirements and sequences analyzed forthcoming)
 
 
-# References
-how to cite this tool:
-```
-Jiayu Shang, Jingzhe Jiang and Yanni Sun, Bacteriophage classification for assembled contigs using Graph Convolutional Network, submitted to ISMB 2021
 
-Or
-
-Shang, J., Jiang, J., & Sun, Y. (2021). Bacteriophage classification for assembled contigs using Graph Convolutional Network. arXiv preprint arXiv:2102.03746.
-```
