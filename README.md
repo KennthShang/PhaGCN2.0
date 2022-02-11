@@ -23,8 +23,8 @@ After cloning this respository, you can use anaconda to install the **environmen
 We recommend you to install all the package with Anaconda.The command that you need to run is 
 ```bash
 cd PhaGCN
-conda env create -f environment.yaml
-conda activate py3.6
+conda env create -f environment.yaml -n phagcn2
+conda activate phagcn2
 pip install sklearn
 ```
 
