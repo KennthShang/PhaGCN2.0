@@ -81,7 +81,7 @@ Train your data set CNN model
 ```bash
 $ python3 train.py --n 8 --gpus 1 --weight "1,1,1,1,1,1,1,1"
 ```
-`--n` is the number of your families,`--weight` is the  weight coefficient，The number of numbers in weight is equal to the number of n `--gpu` is the number of Gpus you have
+`--n` is the number of your families,`--weight` is the  weight coefficient，The number of numbers in weight is equal to the number of n, `--gpu` is the number of Gpus you have
 This will produce two files **Embed.pkl** and **Params.pkl**,Replace the two files with the same name in the **CNN_Classifier** folder.It requires around 250GB of memory(The larger the data set, the more memory is required).
 
 2. Step two:
