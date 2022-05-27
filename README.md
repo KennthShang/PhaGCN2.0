@@ -25,6 +25,7 @@ We recommend you to install all the package with Anaconda.The command that you n
 cd PhaGCN2.0
 conda env create -f environment.yaml -n phagcn2
 conda activate phagcn2
+export MKL_SERVICE_FORCE_INTEL=1
 pip install sklearn
 ```
 
