@@ -49,7 +49,7 @@ There are two parameters for the program:
 1. `--contigs` is the path of your contigs file. 
 2. `--len` is the length of the contigs you want to predict. 
 As shown in our paper, with the length of contigs increases, the recall and precision increase. We recommend you to choose a proper length according to your needs. The default length is 8000bp.
-The output file is **final_prediction.csv**. There are three column in this csv file: "contig_name, median_file_name, prediction".
+The shortest length supported is 1700bp.The output file is **final_prediction.csv**. There are three column in this csv file: "contig_name, median_file_name, prediction".
 
 # New changes:
 Now,the given database can support prediction under the all viruses which is base on ICTV 2021 year reporter（https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13175）.In prediction result,we add a prediction result named "Family_like" , if your virus species prediction label is "_like", it indicates that your virus and some viruses in the virus library are the same order but different families of the relationship.
