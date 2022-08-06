@@ -146,10 +146,10 @@ Human adenovirus type 26,143
 Human adenovirus 27,144
 Human adenovirus 28 strain BP 5,145
 Human adenovirus 29,146
-Human adenovirus 30 isolate USA BP 7 1 1959 30 [P30H30F30],147
+Human adenovirus 30 isolate USA BP 7 1 1959 30 P30H30F30,147
 Human adenovirus 32,148
 Human adenovirus 36 from USA,149
-Human adenovirus type 37 isolate GW [76 19026],150
+Human adenovirus type 37 isolate GW 76 19026,150
 Human adenovirus 38,151
 Human adenovirus 39,152
 Human adenovirus 42,153
@@ -160,7 +160,7 @@ Human adenovirus 47,157
 Human adenovirus type 48,158
 Human adenovirus type 49,159
 Human adenovirus 51,160
-Human adenovirus D strain human DEU IAI 1 2005 53[P37H22F8],161
+Human adenovirus D strain human DEU IAI 1 2005 53P37H22F8,161
 Human adenovirus 54 DNA,162
 Human adenovirus E,163
 Simian adenovirus 22 strain ATCC VR 591,164
@@ -289,7 +289,7 @@ Pepino mosaic virus isolate Sp 13,286
 Pitaya virus X isolate P37,287
 P.asiatica mosaic virus genomic RNA,288
 Actinidia virus X strain RV 3124 RNA dependent RNA polymerase,289
-putative polymerase...capsid protein [potato aucuba mosaic potexvirus PAMV,290
+putative polymerase...capsid protein potato aucuba mosaic potexvirus PAMV,290
 Potato virus X genes for 166K protein,291
 Schlumbergera virus X strain K11,292
 Senna mosaic virus isolate Brazilian,293
@@ -1587,7 +1587,7 @@ Canna yellow mottle virus isolate CaYMV A. purpurata,1584
 Citrus yellow mosaic virus,1585
 Commelina yellow mottle virus complete circular genome,1586
 Cycad leaf necrosis virus,1587
-Dioscorea bacilliform AL virus isolate DBALV [3RT],1588
+Dioscorea bacilliform AL virus isolate DBALV 3RT,1588
 Dioscorea bacilliform virus isolate PNG10,1589
 Dioscorea bacilliform RT virus 2 isolate DBRTV2,1590
 Dioscorea bacilliform RT virus isolate DBRTV3,1591
@@ -2644,7 +2644,7 @@ Mycobacterium phage Halo,2641
 Mycobacterium phage Liefie,2642
 Mycobacterium phage MOOREtheMARYer,2643
 Mycobacterium phage Pinnie,2644
-Beet curly top Iran virus [K],2645
+Beet curly top Iran virus K,2645
 Beet curly top Iran virus isolate IR:Tab:90:Cowpea:10,2646
 Beet curly top Iran virus isolate IR:Nesh:115:Bean:10,2647
 Beet curly top Iran virus isolate IR:Tabr:8RB:Red beet:10,2648
@@ -2658,13 +2658,13 @@ African cassava mosaic virus isolate West Kenyan 844 segment DNA1,2655
 Ageratum enation virus,2656
 Ageratum enation virus Papaver somniferum isolate 2 segment DNA A,2657
 Ageratum leaf curl Sichuan virus isolate SC770,2658
-Ageratum leaf curl virus  [G52] complete genome,2659
-Ageratum yellow vein Hualian virus [Taiwan:Hualian4:2000] segment DNA A,2660
-Ageratum yellow vein Hualian virus [Taiwan:Hsinchu:tom:2003] segment DNA A,2661
+Ageratum leaf curl virus  G52 complete genome,2659
+Ageratum yellow vein Hualian virus Taiwan:Hualian4:2000 segment DNA A,2660
+Ageratum yellow vein Hualian virus Taiwan:Hsinchu:tom:2003 segment DNA A,2661
 Ageratum yellow vein Sri Lanka virus segment A,2662
 Ageratum yellow vein virus DNA,2663
 Ageratum yellow vein virus,2664
-Ageratum yellow vein virus [Tomato] DNA,2665
+Ageratum yellow vein virus Tomato DNA,2665
 Ageratum yellow vein virus isolate AFSP3d segment A,2666
 Ageratum yellow vein virus,2667
 Ageratum yellow vein virus segment DNA A,2668
@@ -2679,19 +2679,19 @@ Andrographis yellow vein leaf curl virus isolate A 64,2676
 Bean bushy stunt virus isolate General Mosconi segment A,2677
 Bean calico mosaic virus DNA A coat protein (AV1),2678
 Bean dwarf mosaic virus segment DNA A,2679
-Bean golden mosaic virus [Brazil] coat protein (AR1),2680
+Bean golden mosaic virus Brazil coat protein (AR1),2680
 Bean golden mosaic virus isolate BR:Mac2:10 segment DNA A,2681
-Bean golden yellow mosaic virus [Dominican Republic] coat protein (AR1),2682
+Bean golden yellow mosaic virus Dominican Republic coat protein (AR1),2682
 Bean latent virus isolate Nayarit segment DNA A,2683
 Bean white chlorosis mosaic virus isolate Venezuela:Rubio 932:2007 segment DNA A,2684
 Bean yellow mosaic Mexico virus strain 06.05.11 segment DNA A,2685
 Bhendi yellow vein Bhubhaneswar virus isolate OYBHU,2686
-Bhendi yellow vein Haryana virus [2003:Karnal] isolate OY76 segment DNA A,2687
-Bhendi yellow vein Delhi virus [2004:New Delhi] isolate OY131 segment DNA A,2688
-Bhendi yellow vein mosaic virus [Madurai] segment A,2689
+Bhendi yellow vein Haryana virus 2003:Karnal isolate OY76 segment DNA A,2687
+Bhendi yellow vein Delhi virus 2004:New Delhi isolate OY131 segment DNA A,2688
+Bhendi yellow vein mosaic virus Madurai segment A,2689
 Bhendi yellow vein mosaic virus isolate NOL751 segment DNA A,2690
 Bhendi yellow vein mosaic virus isolate OYCO4 segment DNA A,2691
-Bhendi yellow vein mosaic virus [2005:Thadagan:India] segment DNA A,2692
+Bhendi yellow vein mosaic virus 2005:Thadagan:India segment DNA A,2692
 Bitter gourd yellow mosaic virus segment DNA A,2693
 Blainvillea yellow spot virus isolate BR:Coi25:07 segment DNA A,2694
 Blechum interveinal chlorosis virus segment A,2695
@@ -2703,18 +2703,18 @@ Cassava mosaic Madagascar virus segment DNA A complete sequence,2700
 Centrosema yellow spot virus isolate BR:Car1:09 segment DNA A,2701
 Chayote yellow mosaic virus DNA A,2702
 Chenopodium leaf curl virus,2703
-Chilli leaf curl Ahmedabad virus India [India Ahmedabad 2014],2704
+Chilli leaf curl Ahmedabad virus India India Ahmedabad 2014,2704
 Chilli leaf curl Gonda virus isolate India Gonda chilli 2013,2705
 Chilli leaf curl India virus segment A,2706
-Chilli leaf curl Kanpur virus [India Kanpur 2008] clone pChKanB19 segment DNA A,2707
+Chilli leaf curl Kanpur virus India Kanpur 2008 clone pChKanB19 segment DNA A,2707
 Chilli leaf curl Sri Lanka virus isolate CL 14,2708
-Chilli Leaf curl Vellanad virus [India Vellanad 2008] clone pChVelK52 segment DNA A,2709
-Chilli leaf curl virus [Multan] segment DNA A,2710
+Chilli Leaf curl Vellanad virus India Vellanad 2008 clone pChVelK52 segment DNA A,2709
+Chilli leaf curl virus Multan segment DNA A,2710
 Chilli leaf curl virus isolate India:Amritsar:Papaya:2009 segment DNA A,2711
 Chilli leaf curl virus segment A,2712
 Chilli leaf curl virus segment DNA A,2713
 Chino del tomate Amazonas virus isolate AM10 segment DNA A,2714
-Chino del tomate virus [IC] component A AV1 protein,2715
+Chino del tomate virus IC component A AV1 protein,2715
 Okra mottle Mexico virus segment A,2716
 Chino del tomate virus isolate Sinaloa segment A,2717
 Cleome golden mosaic virus isolate BA 05 segment DNA A,2718
@@ -2726,36 +2726,36 @@ Cnidoscolus mosaic leaf deformation virus isolate BR Mes3 15 segment DNA A,2723
 Coccinia mosaic Tamil Nadu virus isolate TN TDV Coc 1 segment DNA A,2724
 Common bean mottle virus isolate CU Mayabeque 6 2014 segment DNA A,2725
 Corchorus golden mosaic virus segment DNA A,2726
-Corchorus golden mosaic virus [India:Bahraich:2008] segment DNA A,2727
+Corchorus golden mosaic virus India:Bahraich:2008 segment DNA A,2727
 Corchorus yellow vein Cuba virus isolate Cuba Corchorus 705 1 2013 segment DNA A,2728
 Corchorus yellow vein mosaic virus isolate CEA8,2729
 Corchorus yellow vein Vietnam virus segment DNA A,2730
 Cotton chlorotic spot virus isolate Brazil:CampinaGrandeB012:2009 segment DNA A,2731
-Cotton leaf crumple virus   [Mexico : Sonora] segment A,2732
-Cotton leaf curl Alabad virus [802a] Pakistan strain segment A,2733
-Cotton leaf curl Allahabad virus [India:Karnal:OY77:2005] segment DNA A,2734
-Cotton leaf curl Allahabad virus [India:Karnal:OY81B:2005] segment DNA A,2735
+Cotton leaf crumple virus   Mexico : Sonora segment A,2732
+Cotton leaf curl Alabad virus 802a Pakistan strain segment A,2733
+Cotton leaf curl Allahabad virus India:Karnal:OY77:2005 segment DNA A,2734
+Cotton leaf curl Allahabad virus India:Karnal:OY81B:2005 segment DNA A,2735
 Cotton leaf curl Alabad virus segment DNA A,2736
 Cotton leaf curl Alabad virus segment DNA A,2737
 Cotton leaf curl Bangalore virus segment A,2738
 Malachra yellow mosaic virus DNA,2739
-Cotton leaf curl Gezira virus [okra:BFA] segment DNA A,2740
-Hollyhock leaf crumple virus   [Cairo2] complete genome,2741
-Cotton leaf curl Gezira virus [Cameroon] complete sequence,2742
+Cotton leaf curl Gezira virus okra:BFA segment DNA A,2740
+Hollyhock leaf crumple virus   Cairo2 complete genome,2741
+Cotton leaf curl Gezira virus Cameroon complete sequence,2742
 Cotton leaf curl Gezira virus DNA A replicative form,2743
 Cotton leaf curl Gezira virus,2744
-Okra leaf curl virus [Cameroon] complete sequence,2745
+Okra leaf curl virus Cameroon complete sequence,2745
 Bean leaf curl Madagascar virus cp,2746
-Cotton leaf curl Gezira virus [okra:Niger] isolate AFNG1 segment A,2747
+Cotton leaf curl Gezira virus okra:Niger isolate AFNG1 segment A,2747
 Cotton leaf curl Gezira virus segment DNA A,2748
-Cotton leaf curl Kokhran virus [806b] Pakistan strain segment A,2749
-Cotton leaf curl Burewala virus   [India:Vehari:2006] complete genome,2750
+Cotton leaf curl Kokhran virus 806b Pakistan strain segment A,2749
+Cotton leaf curl Burewala virus   India:Vehari:2006 complete genome,2750
 Cotton leaf curl Burewala virus complete genome,2751
 Cotton leaf curl Kokhran virus segment DNA A,2752
 Cotton leaf curl Shadadpur virus,2753
-Cotton leaf curl Multan virus [62] segment A,2754
-Cotton leaf curl Multan virus [Hibiscus rosa sinensis] isolate 2(Red flower) segment DNA A,2755
-Cotton leaf curl Multan virus [Faisalabad3] complete genome,2756
+Cotton leaf curl Multan virus 62 segment A,2754
+Cotton leaf curl Multan virus Hibiscus rosa sinensis isolate 2(Red flower) segment DNA A,2755
+Cotton leaf curl Multan virus Faisalabad3 complete genome,2756
 Cotton leaf curl Multan virus segment DNA A,2757
 Cotton leaf curl Multan virus segment A,2758
 Cotton yellow mosaic virus isolate BN Gos San2 14 segment DNA A,2759
@@ -2774,7 +2774,7 @@ Dicliptera yellow mottle virus segment A,2771
 Dicliptera yellow mottle virus DNA A coat protein AV1 (AV1),2772
 Hyacinth bean yellow mosaic Bangladesh virus DNA A,2773
 Duranta leaf curl virus isolate 57SA segment DNA A,2774
-East African cassava mosaic Malawi virus Malawi[K] AV1,2775
+East African cassava mosaic Malawi virus MalawiK AV1,2775
 East African cassava mosaic virus Uganda2 Severe DNA A strain EACMV Ug2  Svr AV2 (AV2) and AV1 (AV1) genes,2776
 East African cassava mosaic virus KE2 segment DNA A,2777
 East African cassava mosaic virus strain Malawi 2007 8N,2778
@@ -2782,17 +2782,17 @@ East African cassava mosaic virus segment A,2779
 East African cassava mosaic Zanzibar virus segment DNA A,2780
 Eclipta yellow vein virus isolate WOK44 segment DNA A,2781
 Emilia sonchifolia yellow vein Thailand virus isolate TH4872 6 segment DNA A,2782
-Emilia yellow vein virus [Fz1],2783
+Emilia yellow vein virus Fz1,2783
 Erectites yellow mosaic virus segment DNA A,2784
-Eupatorium yellow vein virus [SOJ3] complete genome,2785
+Eupatorium yellow vein virus SOJ3 complete genome,2785
 Eupatorium yellow vein virus DNA,2786
-Eupatorium yellow vein virus [MNS2] complete genome,2787
-Eupatorium yellow vein virus   [Yamaguchi] DNA,2788
-Eupatorium yellow vein virus [Japan: Kagawa: Tomato: 1997] DNA,2789
+Eupatorium yellow vein virus MNS2 complete genome,2787
+Eupatorium yellow vein virus   Yamaguchi DNA,2788
+Eupatorium yellow vein virus Japan: Kagawa: Tomato: 1997 DNA,2789
 Euphorbia leaf curl Guangxi virus complete genome,2790
-Euphorbia leaf curl virus   [G35] DNA A,2791
+Euphorbia leaf curl virus   G35 DNA A,2791
 Euphorbia mosaic virus Peru DNA A,2792
-Euphorbia mosaic virus   A [Mexico:Yucatan:2004] clone pEuMV YP A segment DNA A,2793
+Euphorbia mosaic virus   A Mexico:Yucatan:2004 clone pEuMV YP A segment DNA A,2793
 Euphorbia yellow leaf curl virus isolate PK1A,2794
 Euphorbia yellow mosaic virus segment DNA A,2795
 French bean leaf curl virus isolate FbLCV Kanpur segment DNA A,2796
@@ -2802,8 +2802,8 @@ Hibiscus golden mosaic virus isolate BR IgM1 16 segment DNA A,2799
 Hibiscus vein enation virus clone HibA 1 segment DNA A,2800
 Hollyhock leaf curl virus,2801
 Hollyhock yellow vein mosaic virus isolate Alcea rosea:Lucknow,2802
-Honeysuckle yellow vein virus [UK1] complete genome,2803
-Honeysuckle yellow vein virus [Australia:Ayr:1983] isolate BRIP57501 segment DNA A,2804
+Honeysuckle yellow vein virus UK1 complete genome,2803
+Honeysuckle yellow vein virus Australia:Ayr:1983 isolate BRIP57501 segment DNA A,2804
 Honeysuckle yellow vein virus DNA,2805
 Honeysuckle yellow vein virus DNA,2806
 Honeysuckle yellow vein virus DNA,2807
@@ -2812,22 +2812,22 @@ Honeysuckle yellow vein virus DNA,2809
 Honeysuckle yellow vein virus,2810
 Honeysuckle yellow vein virus DNA,2811
 Honeysuckle yellow vein virus DNA,2812
-Honeysuckle yellow vein virus [Japan:Masuda:2003] DNA,2813
+Honeysuckle yellow vein virus Japan:Masuda:2003 DNA,2813
 Honeysuckle yellow vein virus DNA,2814
 Honeysuckle yellow vein virus,2815
 Honeysuckle yellow vein virus,2816
 Hybanthus yellow mosaic virus isolate Florida Valle 2014 segment DNA A,2817
 Indian cassava mosaic virus encoding AR0 complete CDS,2818
-Jatropha curcas mosaic virus [Jalgaon] segment DNA A,2819
-Jatropha curcas mosaic virus [Dha] isolate Dharwad segment DNA A,2820
-Indian cassava mosaic virus [Ker2] DNA A,2821
+Jatropha curcas mosaic virus Jalgaon segment DNA A,2819
+Jatropha curcas mosaic virus Dha isolate Dharwad segment DNA A,2820
+Indian cassava mosaic virus Ker2 DNA A,2821
 Jacquemontia mosaic Yucatan virus segment DNA A,2822
-Jacquemontia yellow mosaic virus isolate [Venezuela:Rio Cocollar 1250:2009] segment DNA A,2823
+Jacquemontia yellow mosaic virus isolate Venezuela:Rio Cocollar 1250:2009 segment DNA A,2823
 Jatropha leaf curl Gujarat virus,2824
 Jatropha leaf curl virus segment DNA A,2825
 Jatropha leaf curl virus strain JCLCV PDVN MPR Guj 1 segment DNA A,2826
 Jatropha leaf yellow mosaic Katarniaghat virus isolate Katerniaghat 2 segment DNA A,2827
-Jatropha mosaic India virus [Lucknow] strain SK 2 segment DNA A,2828
+Jatropha mosaic India virus Lucknow strain SK 2 segment DNA A,2828
 Jatropha mosaic Nigerian virus isolate 2 segment DNA A,2829
 Jatropha mosaic virus strain Jamaica:Spanish Town:2004 clone A1 segment DNA A,2830
 Kudzu mosaic virus segment DNA A,2831
@@ -2839,33 +2839,33 @@ Ludwigia yellow vein virus,2836
 Loofa yellow mosaic virus DNA A,2837
 Macroptilium bright mosaic virus isolate ALM33_5B segment DNA A,2838
 Macroptilium common mosaic virus isolate ALM2_5B segment DNA A,2839
-Macroptilium golden mosaic virus [Jamaica:Wissadula:August Town] segment DNA A,2840
+Macroptilium golden mosaic virus Jamaica:Wissadula:August Town segment DNA A,2840
 Macroptilium mosaic Puerto Rico virus segment A,2841
 Macroptilium yellow mosaic Florida virus segment A,2842
 Macroptilium yellow mosaic virus isolate St. Thomas segment DNA A,2843
-Macroptilium yellow mosaic virus [Cuba] AV1 gene,2844
+Macroptilium yellow mosaic virus Cuba AV1 gene,2844
 Macroptilium yellow vein virus isolate BR:Mac4:10 segment DNA A,2845
 Malvastrum bright yellow mosaic virus isolate Ma8S clone Ma8S 5A segment DNA A,2846
 Malvastrum leaf curl Philippines virus isolate Mc1 segment DNA A,2847
-Malvastrum leaf curl virus   [G87] complete genome,2848
+Malvastrum leaf curl virus   G87 complete genome,2848
 Malvastrum yellow mosaic Helshire virus isolate Ma179A5 segment DNA A,2849
 Malvastrum yellow mosaic Jamaica virus isolate Ma179A73 segment DNA A,2850
 Malvastrum yellow mosaic virus segment DNA A,2851
 Malvastrum yellow vein Honghe virus segment DNA A,2852
 Malvastrum yellow vein Lahore virus isolate J47,2853
-Malvastrum yellow vein virus [Y47] complete genome,2854
+Malvastrum yellow vein virus Y47 complete genome,2854
 Malvastrum yellow vein Baoshan virus segment DNA A,2855
 Malvastrum yellow vein Baoshan virus DNA A,2856
 Malvastrum yellow vein Yunnan virus,2857
 Melochia mosaic virus isolate Brazil Corumba B25 2014 segment DNA A,2858
 Melon chlorotic leaf curl virus isolate 98 631 segment DNA A,2859
 Melon chlorotic leaf curl virus segment DNA A,2860
-Melon chlorotic leaf curl virus [Guatemala] component A,2861
+Melon chlorotic leaf curl virus Guatemala component A,2861
 Melon chlorotic mosaic virus isolate 2009 02 04 06 segment DNA A,2862
 Melon yellow mosaic virus isolate Me MS 9 segment A,2863
 Merremia mosaic Puerto Rico virus strain PR89 segment DNA A,2864
 Merremia mosaic geminivirus AV1,2865
-Mesta yellow vein mosaic Bahraich virus [India:Bahraich:2007] segment DNA A,2866
+Mesta yellow vein mosaic Bahraich virus India:Bahraich:2007 segment DNA A,2866
 Mimosa yellow leaf curl virus segment DNA A,2867
 Mirabilis leaf curl virus,2868
 Mungbean yellow mosaic virus DNA,2869
@@ -2873,16 +2873,16 @@ Ocimum golden mosaic virus isolate Uganda UG31 2015 segment DNA A,2870
 Ocimum mosaic virus isolate Uganda UG24 2015 segment DNA A,2871
 Ocimum yellow vein virus isolate Uganda UG14 2015 segment DNA A,2872
 Okra leaf curl Oman virus,2873
-Okra mottle virus   [Brazil:okra] isolate 6319 segment DNA A,2874
+Okra mottle virus   Brazil:okra isolate 6319 segment DNA A,2874
 Okra yellow crinkle virus segment A,2875
-Okra yellow crinkle virus [Cameroon] complete sequence,2876
+Okra yellow crinkle virus Cameroon complete sequence,2876
 Okra yellow crinkle virus complete sequence,2877
 Okra yellow mosaic Mexico virus segment A,2878
 Oxalis yellow vein virus strain USA:LA:01 segment DNA A,2879
-Papaya leaf curl China virus   [G10] DNA A,2880
+Papaya leaf curl China virus   G10 DNA A,2880
 Tomato leaf curl Hainan virus HaNHK7 complete genome,2881
 Papaya leaf curl China virus GX4 complete genome,2882
-Papaya leaf curl China virus   [G30] DNA A,2883
+Papaya leaf curl China virus   G30 DNA A,2883
 Papaya leaf curl China virus segment DNA A,2884
 Papaya leaf curl virus AV1,2885
 Papaya leaf curl virus,2886
@@ -2893,7 +2893,7 @@ Croton yellow vein mosaic virus,2890
 Papaya leaf curl virus complete genome,2891
 Croton yellow vein virus,2892
 Papaya leaf curl virus av2 gene,2893
-Papaya leaf curl virus [soybean: Lucknow] segment DNA A,2894
+Papaya leaf curl virus soybean: Lucknow segment DNA A,2894
 Papaya leaf curl virus segment DNA A,2895
 Papaya leaf curl virus segment DNA A,2896
 Papaya severe leaf curl virus isolate PSB 8 segment DNA A,2897
@@ -2904,19 +2904,19 @@ Passionfruit severe leaf distortion virus isolate BR:LNS2:Pas:01 segment DNA A,2
 Pavonia mosaic virus isolate BR Cor40 14 segment DNA A,2902
 Pavonia yellow mosaic virus isolate BR Alb51 14 segment DNA A,2903
 Pea leaf distortion virus clone N36 41 segment DNA A,2904
-Pedilathus leaf curl virus Pedilanthus [Pakistan:Multan:2004] complete genome,2905
+Pedilathus leaf curl virus Pedilanthus Pakistan:Multan:2004 complete genome,2905
 Pedilanthus leaf curl virus isolate Rahim Yar Khan 1 segment A,2906
 Pedilanthus leaf curl virus complete genome,2907
-Pepper golden mosaic virus [CR] coat protein (AV1),2908
+Pepper golden mosaic virus CR coat protein (AV1),2908
 Pepper golden mosaic virus strain Llano Grande,2909
 Pepper huasteco yellow vein virus segment A,2910
 Pepper leaf curl Bangladesh virus segment A,2911
-Pepper leaf curl Lahore Virus [Pakistan:Lahore1:2004] segment A,2912
+Pepper leaf curl Lahore Virus Pakistan:Lahore1:2004 segment A,2912
 Pepper leaf curl Bangladesh virus isolate India Coimbatore Chilli 2008 segment DNA A,2913
 Pepper leaf curl Bangladesh virus segment A,2914
 Pepper leaf curl virus,2915
-Pepper leaf curl virus [Malaysia] segment A,2916
-Pepper leaf curl Yunnan virus [YN323],2917
+Pepper leaf curl virus Malaysia segment A,2916
+Pepper leaf curl Yunnan virus YN323,2917
 Pepper leafroll virus isolate PE:P107:pep:2009 segment DNA A,2918
 Pepper yellow leaf curl Aceh virus DNA,2919
 Pepper yellow leaf curl Indonesia virus DNA,2920
@@ -2925,18 +2925,18 @@ Pepper yellow leaf curl virus isolate YN65 1,2922
 Pepper yellow vein Mali virus,2923
 Polygala garcinii associated virus isolate 1 1,2924
 Potato yellow mosaic Panama virus segment A,2925
-Potato yellow mosaic virus [Venezuela] DNA A,2926
+Potato yellow mosaic virus Venezuela DNA A,2926
 Potato yellow mosaic virus segment DNA A,2927
 Potato yellow mosaic virus isolate Valle del Cauca segment A,2928
 Pouzolzia golden mosaic virus isolate ML13W1 segment DNA A,2929
 Premna leaf curl virus isolate VN7 segment DNA A,2930
 Pumpkin yellow mosaic Malaysia virus isolate MP1 segment DNA A,2931
 Ramie mosaic Yunnan virus isolate 4819 5 segment DNA A,2932
-Rhynchosia golden mosaic Havana virus [Cuba:Havana:28:2007] segment DNA A,2933
+Rhynchosia golden mosaic Havana virus Cuba:Havana:28:2007 segment DNA A,2933
 Rhynchosia golden mosaic Sinaloa virus segment A,2934
 Rhynchosia golden mosaic virus isolate Soybean 1068 segment DNA A,2935
 Rhynchosai mild mosaic virus strain PR79 segment DNA A,2936
-Rhynchosia rugose golden mosaic virus [Cuba:Camaguey:171:2009] segment DNA A,2937
+Rhynchosia rugose golden mosaic virus Cuba:Camaguey:171:2009 segment DNA A,2937
 Rhynchosia yellow mosaic India virus clone JRH1 segment DNA A,2938
 Rose leaf curl virus isolate AS24,2939
 Sauropus leaf curl virus isolate AFSP5e segment A,2940
@@ -2947,29 +2947,29 @@ Sida chlorotic leaf virus isolate SiChLV Colima segment DNA A,2944
 Sida chlorotic mottle virus isolate BR:Trm531.1:10,2945
 Sida chlorotic vein virus isolate ALS15_2C segment DNA A,2946
 Sida common mosaic virus isolate BR:Coi4:07 segment DNA A,2947
-Sida golden mosaic Braco virus [Jamaica:Liguanea:2008] clone pBrA4,2948
+Sida golden mosaic Braco virus Jamaica:Liguanea:2008 clone pBrA4,2948
 Sida golden mosaic Brazil virus segment DNA A,2949
 Sida golden mosiac Costa Rica virus AV1,2950
 Sida golden mosaic Florida virus Malvastrum strain Cuba:Havana:Malvastrum:111:2009 segment DNA A,2951
-Sida golden mosaic Florida virus [A1],2952
+Sida golden mosaic Florida virus A1,2952
 Sida golden mosaic virus coat protein (AV1),2953
 Sida golden mottle virus segment DNA A,2954
 Sida golden yellow spot virus isolate BR:Sab889:10,2955
-Sida golden yellow vein virus [A11],2956
+Sida golden yellow vein virus A11,2956
 Sida leaf curl virus complete genome,2957
 Sida micrantha mosaic virus segment A,2958
-Sida micrantha mosaic virus   Rhombifolia [Bolivia:Cerro Fraile 2:2007] segment DNA A,2959
-Sida micrantha mosaic virus isolate SiMMV Santaremensis[BR:GO:Luz780:03] segment DNA A,2960
+Sida micrantha mosaic virus   Rhombifolia Bolivia:Cerro Fraile 2:2007 segment DNA A,2959
+Sida micrantha mosaic virus isolate SiMMV SantaremensisBR:GO:Luz780:03 segment DNA A,2960
 Sida mosaic Alagoas virus isolate BgV02A.1.C59 segment DNA A,2961
 Sida mosaic Bolivia virus 1 segment DNA A,2962
 Sida mosaic Bolivia virus 2 segment DNA A,2963
 Sida mottle Alagoas virus isolate BR:Vsa2:10 segment DNA A,2964
 Sida micrantha mosaic virus segment A,2965
-Sida mottle virus [Brazil] DNA A,2966
+Sida mottle virus Brazil DNA A,2966
 Sida yellow blotch virus isolate BR:Rla1:10 segment DNA A,2967
 Sida yellow golden mosaic virus isolate SPI15 segment DNA A,2968
 Sida yellow leaf curl virus isolate BR:Coi3:07 segment DNA A,2969
-Sida yellow mosaic China virus   [Hainan 8] complete genome,2970
+Sida yellow mosaic China virus   Hainan 8 complete genome,2970
 Sida yellow mosaic Yucatan virus segment DNA A,2971
 Sida yellow mottle virus strain Cuba:Sancti Spiritus159 1:2009 segment DNA A,2972
 Sida yellow net virus isolate BR:Vic2:10 segment DNA A,2973
@@ -2984,91 +2984,91 @@ Soybean chlorotic blotch virus isolate Sb19 segment DNA A,2981
 Soybean mild mottle virus isolate Sb17,2982
 Spilanthes yellow vein virus segment DNA A,2983
 Spinach yellow vein Sikar virus clone AS22,2984
-Squash leaf curl China virus   [Cucurbita pepo: Lahore] AV2 gene,2985
-Squash leaf curl China virus [Wax Gourd:Nakhon Pathom] segment A,2986
+Squash leaf curl China virus   Cucurbita pepo: Lahore AV2 gene,2985
+Squash leaf curl China virus Wax Gourd:Nakhon Pathom segment A,2986
 Squash leaf curl Philippines virus DNA A,2987
 Squash leaf curl Yunnan virus complete genome,2988
-Squash mild leaf curl virus [Imperial Valley] SLCV R A component,2989
-Sri Lankan cassava mosaic virus [Colombo] DNA A,2990
-Sri Lankan cassava mosaic virus   [Ker20] segment A,2991
+Squash mild leaf curl virus Imperial Valley SLCV R A component,2989
+Sri Lankan cassava mosaic virus Colombo DNA A,2990
+Sri Lankan cassava mosaic virus   Ker20 segment A,2991
 Sunn hemp leaf distortion virus clone SHLD FL Bar 01 segment DNA A,2992
 Sweet potato golden vein Korea virus isolate 102_SPGVaV,2993
 Sweet potato leaf curl Canary virus isolate ES:CI:BG25:02,2994
 Sweet potato leaf curl China virus segment A,2995
-Sweet potato leaf curl Georgia virus [16] DNA A,2996
+Sweet potato leaf curl Georgia virus 16 DNA A,2996
 Sweet potato leaf curl Guangxi virus isolate China:Guangxi5:2011,2997
 Sweet potato leaf curl Henan virus isolate China:Henan10:2012,2998
-Sweet potato leaf curl Sao Paulo virus isolate SPLCSPV [BR:AlvM:09],2999
+Sweet potato leaf curl Sao Paulo virus isolate SPLCSPV BR:AlvM:09,2999
 Sweet potato leaf curl virus isolate SPLCV SD,3000
 Sweet potato leaf curl Sichuan virus 1 isolate China:Sichuan15:2012,3001
 Sweet potato leaf curl Sichuan virus 2 isolate China:Sichuan14:2012,3002
 Sweet potato leaf curl South Carolina virus isolate US:SC:648B 9,3003
 Sweet potato leaf curl virus DNA A,3004
 Sweet potato leaf curl virus isolate RL31 segment DNA A,3005
-Sweet potato leaf curl virus isolate PA [BR:Bel1],3006
+Sweet potato leaf curl virus isolate PA BR:Bel1,3006
 Sweet potato leaf curl virus isolate F p3,3007
 Ipomoea yellow vein virus segment A,3008
 Sweet potato leaf curl virus DNA,3009
-Sweet potato leaf curl virus isolate PB1 [BR:Sou1],3010
-Sweet potato leaf curl virus isolate SPLCV PE[BR:PV:08],3011
+Sweet potato leaf curl virus isolate PB1 BR:Sou1,3010
+Sweet potato leaf curl virus isolate SPLCV PEBR:PV:08,3011
 Sweet potato leaf curl virus isolate PR80 N2 segment DNA A,3012
-Sweet potato leaf curl virus isolate SPLCV SP[BR:AlvM:09],3013
+Sweet potato leaf curl virus isolate SPLCV SPBR:AlvM:09,3013
 Sweet potato leaf curl virus isolate US:SC:646B 11,3014
 Sweet potato leaf curl virus Spain isolate ES:CI:BG6:02,3015
-Sweet potato mosaic virus   [Brazil:Brasilia1:2007] isolate BR:BSB1,3016
+Sweet potato mosaic virus   Brazil:Brasilia1:2007 isolate BR:BSB1,3016
 Synedrella yellow vein clearing virus isolate NCBS PS 1 segment DNA A,3017
 Telfairia golden mosaic virus isolate Cameroon Bakundu Bangang Telfairia 20 14 segment DNA A,3018
-Tobacco curly shoot virus [Y41] segment A,3019
+Tobacco curly shoot virus Y41 segment A,3019
 Tobacco leaf curl Cuba virus isolate CU frijol 8 2014 segment DNA A,3020
 Tobacco leaf curl Dominican Republic virus strain Dominican Republic:Cerro Gordo:2015 segment A,3021
 Tobacco leaf curl Pusa virus strain IN:Pusa:Tb:10,3022
 Tobacco leaf curl Thailand virus,3023
-Tobacco leaf curl Yunnan virus   [Y136] complete genome,3024
+Tobacco leaf curl Yunnan virus   Y136 complete genome,3024
 Tobacco leaf curl Zimbabwe virus,3025
 Tobacco leaf rugose virus DNA A,3026
 Tobacco yellow crinkle virus segment A,3027
 Tomato chino La Paz geminivirus segment A,3028
 Tomato Chino La Paz virus  SLP 4,3029
-Tomato chino La Paz virus   [Baja California Sur] segment A,3030
+Tomato chino La Paz virus   Baja California Sur segment A,3030
 Tomato chlorotic leaf curl virus isolate BR Alt1 16 segment DNA A,3031
 Tomato chlorotic mottle Guyane virus isolate GF:Mon2:GF455:09 segment DNA A,3032
-Tomato chlorotic mottle virus [Brazil] isolate BA Se1 DNA A,3033
+Tomato chlorotic mottle virus Brazil isolate BA Se1 DNA A,3033
 Tomato chlorotic mottle virus Crumple DNA A,3034
 Tomato common mosaic virus isolate BR:Coi22:07 segment DNA A,3035
-Tomato curly stunt virus   [South Africa] segment A component V2 protein,3036
+Tomato curly stunt virus   South Africa segment A component V2 protein,3036
 Tomato dwarf leaf virus isolate AR:Pichanal:397 segment DNA A,3037
 Tomato enation leaf curl virus isolate TC14 segment DNA A,3038
 Tomato golden leaf distortion virus isolate TO45 coat protein like,3039
 UNVERIFIED: Tomato golden leaf spot virus isolate TO83 Araguaina segment DNA A,3040
 Tomato golden mottle virus segment A,3041
-Tomato golden vein virus isolate DF[BR:Ita1220:03] segment DNA A,3042
-Tomato interveinal chlorosis virus isolate PE[BR:Mdc2681:04] segment DNA A,3043
+Tomato golden vein virus isolate DFBR:Ita1220:03 segment DNA A,3042
+Tomato interveinal chlorosis virus isolate PEBR:Mdc2681:04 segment DNA A,3043
 Tomato latent virus isolate T2+,3044
 Tomato leaf curl Anjouan virus,3045
 Tomato leaf curl Arusha virus isolate AFTT23 segment DNA A,3046
 Tomato leaf curl virus   Bangalore I V1,3047
-Tomato leaf curl Bangalore virus [Ban5] DNA A,3048
+Tomato leaf curl Bangalore virus Ban5 DNA A,3048
 Tomato leaf curl geminivirus DNA A strain LCV Ban4,3049
-Tomato leaf curl Bangalore virus   [India:Kerala II:2005],3050
+Tomato leaf curl Bangalore virus   India:Kerala II:2005,3050
 Tomato leaf curl Bangladesh virus complete genome,3051
 Tomato leaf curl Burkina Faso virus isolate Burkina Faso:Loumbila:Tomate51B1:2013,3052
 Tomato leaf curl Cebu virus isolate P134,3053
-Tomato leaf curl China virus   [G32] DNA A,3054
-Tomato leaf curl China virus   [G18] DNA A,3055
+Tomato leaf curl China virus   G32 DNA A,3054
+Tomato leaf curl China virus   G18 DNA A,3055
 Tomato leaf curl China virus DNA A complete sequence,3056
 Tomato leaf curl Mayotte virus complete genome,3057
 Tomato leaf curl Namakely virus,3058
 Tomato leaf curl Diana virus cp,3059
 Tomato leaf curl virus Ghana virus isolate FGH5 3 segment A,3060
-Ageratum leaf curl Cameroon virus [CM:AGFG24:2009] complete A component,3061
+Ageratum leaf curl Cameroon virus CM:AGFG24:2009 complete A component,3061
 Tomato leaf curl Guangxi virus complete genome,3062
-Tomato leaf curl Gujarat virus   [Varanasi] segment A,3063
+Tomato leaf curl Gujarat virus   Varanasi segment A,3063
 Tomato leaf curl Hainan virus isolate FQ12,3064
 Tomato leaf curl Hanoi virus isolate Vietnam Hanoi tomato 2010,3065
 Ramie mosaic virus segment DNA A,3066
 Tomato leaf curl Iran virus from Iran,3067
-Honeysuckle yellow vein mosaic virus [Japan:Miyazaki:2001] DNA,3068
-Tomato leaf curl Java virus [Ageratum] DNA,3069
+Honeysuckle yellow vein mosaic virus Japan:Miyazaki:2001 DNA,3068
+Tomato leaf curl Java virus Ageratum DNA,3069
 Tomato leaf curl Joydebpur virus isolate Varanasi genomic sequence,3070
 Tomato leaf curl virus   Bangalore II,3071
 Tomato leaf curl Karnataka virus 2 isolate TC289 segment DNA A,3072
@@ -3076,8 +3076,8 @@ Tomato leaf curl Karnataka virus 3 isolate TC235 segment DNA A,3073
 Tomato leaf curl Kerala virus isolate ToLCV K3 segment DNA A,3074
 Tomato leaf curl Kunene virus isolate Namibia 2019,3075
 Tomato leaf curl Liwa virus isolate LW1,3076
-Tomato leaf curl Madagascar virus Menabe [Madagascar:Morondova:2001] complete genome,3077
-Tomato leaf curl Madagascar virus Androy [Madagascar:Toliary:2001],3078
+Tomato leaf curl Madagascar virus Menabe Madagascar:Morondova:2001 complete genome,3077
+Tomato leaf curl Madagascar virus Androy Madagascar:Toliary:2001,3078
 Tomato leaf curl Mahe virus isolate Seychelles Pralin SC8 1b 2017,3079
 Tomato leaf curl Malaysia virus segment A,3080
 Tomato leaf curl Mali virus,3081
@@ -3086,19 +3086,19 @@ Tomato leaf curl New Delhi virus Severe segment A,3083
 Tomato leaf curl New Delhi virus 2,3084
 Tomato leaf curl New Delhi virus 4 isolate TC306 segment DNA A,3085
 Tomato leaf curl New Delhi virus 5 segment DNA A,3086
-Tomato leaf curl Nigeria virus [Nigeria:2006],3087
+Tomato leaf curl Nigeria virus Nigeria:2006,3087
 Tomato leaf curl Palampur virus complete sequence,3088
 Tomato leaf curl Patna virus segment DNA A,3089
 Tomato leaf curl Philippines virus   Los Banos:L3 DNA,3090
 Tomato leaf curl Philippines virus   Laguna DNA,3091
-Tomato leaf curl Pune virus   [India:Pune:2005],3092
+Tomato leaf curl Pune virus   India:Pune:2005,3092
 Tomato leaf curl purple vein virus isolate BR:793:15 clone P793,3093
-Tomato leaf curl Rajasthan virus   [India:Rajasthan:2005] segment A,3094
+Tomato leaf curl Rajasthan virus   India:Rajasthan:2005 segment A,3094
 Tomato leaf curl Seychelles virus complete genome,3095
 Sinaloa tomato leaf curl virus AV1 gene,3096
-Tomato leaf curl Sudan virus   [Gezira] precoat protein (V2),3097
+Tomato leaf curl Sudan virus   Gezira precoat protein (V2),3097
 Tomato leaf curl Sudan virus isolate SD:WM:11,3098
-Tomato leaf curl Sudan virus   [Shambat] precoat protein (V2),3099
+Tomato leaf curl Sudan virus   Shambat precoat protein (V2),3099
 Tomato leaf curl Sudan virus from Yemen,3100
 Tomato leaf curl Sulawesi virus isolate FI08No1 1 segment DNA A,3101
 Tomato leaf curl virus   Taiwan complete genome,3102
@@ -3106,50 +3106,50 @@ Tomato leaf curl Taiwan virus isolate NS1,3103
 Tomato leaf curl Taiwan virus isolate LJC14 2 segment DNA A,3104
 Tomato leaf curl Arusha virus segment DNA A,3105
 Tomato leaf curl Toliara virus cp,3106
-Tomato leaf curl Uganda virus   [Iganga] segment A,3107
+Tomato leaf curl Uganda virus   Iganga segment A,3107
 Tomato leaf curl virus   Vietnam DNA A,3108
-Tomato leaf curl virus [AU],3109
-Tomato leaf curl virus [Solanum species D1] strain D1,3110
+Tomato leaf curl virus AU,3109
+Tomato leaf curl virus Solanum species D1 strain D1,3110
 Tomato leaf curl virus,3111
 Tomato leaf curl virus,3112
 Tomato leaf deformation virus isolate PE:PT1:To:03 segment DNA A,3113
 Tomato leaf distortion virus isolate BR:Pda4:05 segment DNA A,3114
 Tomato mild mosaic virus isolate BR:Pda58:05 segment DNA A,3115
-Tomato mild yellow leaf curl Aragua virus   [Venezuela:10:2003] segment DNA A,3116
-Tomato mosaic Havana virus [Quivican] DNA,3117
+Tomato mild yellow leaf curl Aragua virus   Venezuela:10:2003 segment DNA A,3116
+Tomato mosaic Havana virus Quivican DNA,3117
 Tomato mottle leaf curl virus isolate BR:Jai13:08 segment DNA A,3118
-Tomato mottle virus [Florida] complete A component DNA; coat protein (AR1),3119
-Tomato rugose mosaic virus [Ube] DNA A,3120
+Tomato mottle virus Florida complete A component DNA; coat protein (AR1),3119
+Tomato rugose mosaic virus Ube DNA A,3120
 Tomato rugose yellow leaf curl virus isolate U2 clone 1 segment DNA_A,3121
 Tomato severe leaf curl Kalakada virus isolate TC101 segment DNA A,3122
-Tomato severe leaf curl virus [Guatemala 96 1] segment A,3123
+Tomato severe leaf curl virus Guatemala 96 1 segment A,3123
 Tomato severe leaf curl virus   Huasteca,3124
 Tomato severe rugose virus strain Petrolina de Goias segment DNA A,3125
 Tomato twisted leaf virus isolate Be6.6H segment DNA A,3126
 Tomato vein clearing leaf deformation virus isolate AR:Cordoba:Monte Cristo:Tom51:05 segment DNA A,3127
 Tomato mosaic Trujillo virus isolate Trujillo 427a segment DNA A,3128
-TYLCAxV Sic1 [IT:Sic2 2:04],3129
+TYLCAxV Sic1 IT:Sic2 2:04,3129
 Tomato yellow leaf curl China virus TYLCV CHI segment A,3130
-Tomato yellow leaf curl China virus Tb[Y10] DNA A,3131
+Tomato yellow leaf curl China virus TbY10 DNA A,3131
 Tomato yellow leaf curl China virus DNA segment A,3132
 Tomato yellow leaf curl China virus isolate Bean YM,3133
-Tomato yellow leaf curl China virus Tb[Y5] DNA A,3134
-Tomato yellow leaf curl China virus [YN72],3135
+Tomato yellow leaf curl China virus TbY5 DNA A,3134
+Tomato yellow leaf curl China virus YN72,3135
 Tomato yellow leaf curl Guangdong virus isolate G3 segment DNA A,3136
-Tomato yellow leaf curl Indonesia virus [Lembang] segment A,3137
-Tomato yellow leaf curl Kanchanaburi virus [Thailand Kan1] segment DNA A,3138
+Tomato yellow leaf curl Indonesia virus Lembang segment A,3137
+Tomato yellow leaf curl Kanchanaburi virus Thailand Kan1 segment DNA A,3138
 Tomato yellow leaf curl Mali virus complete genome,3139
-Tomato yellow leaf curl Mali virus [Ethiopia] segment DNA A,3140
+Tomato yellow leaf curl Mali virus Ethiopia segment DNA A,3140
 Tomato yellow leaf curl Mali virus,3141
 Tomato yellow leaf curl Sardinia virus,3142
-Tomato yellow leaf curl Shuangbai virus   [Y4536],3143
-Tomato yellow leaf curl Thailand virus [2] segment A,3144
+Tomato yellow leaf curl Shuangbai virus   Y4536,3143
+Tomato yellow leaf curl Thailand virus 2 segment A,3144
 Tomato yellow leaf curl Thailand virus strain Chiang Mai segment A,3145
-Tomato yellow leaf curl Thailand virus [Myanmar] segment A,3146
+Tomato yellow leaf curl Thailand virus Myanmar segment A,3146
 Tomato yellow leaf curl Thailand virus strain Sakon Nakhon segment A,3147
 Tomato yellow leaf curl Vietnam virus segment DNA A,3148
-Tomato yellow leaf curl virus [Almeria] complete genome,3149
-Tomato yellow leaf curl virus [Genaveh:Iran] isolate TYLCV Bou[IR:Ge29:06],3150
+Tomato yellow leaf curl virus Almeria complete genome,3149
+Tomato yellow leaf curl virus Genaveh:Iran isolate TYLCV BouIR:Ge29:06,3150
 Tomato yellow leaf curl virus Iran complete genome,3151
 Tomato yellow leaf curl virus isolate Kahnooj,3152
 Tomato yellow leaf curl virus Mild V1,3153
@@ -3182,7 +3182,7 @@ Plantago lanceolata latent virus isolate ALA13_Pl11,3179
 Camellia chlorotic dwarf associated virus isolate Ca 1,3180
 Paper mulberry leaf curling associated virus 2 isolate SWU,3181
 Passion fruit chlorotic mottle virus isolate CDS_MS_BR_2014,3182
-Beet curly top virus   California [Logan],3183
+Beet curly top virus   California Logan,3183
 Beet curly top virus strain BMCTV Mexico,3184
 Beet severe curly top virus   Cfh,3185
 Beet curly top virus isolate LRME27607,3186
@@ -3219,12 +3219,12 @@ Digitaria streak virus,3216
 Dragonfly associated mastrevirus isolate PR_NZ50_2009,3217
 Eleusine indica associated virus isolate Reunion Bassin plat RE004 2014,3218
 Eragrostis minor streak virus,3219
-Eragrostis streak virus isolate ESV[ZmGur],3220
+Eragrostis streak virus isolate ESVZmGur,3220
 Maize streak dwarfing virus isolate MSDV MV 1,3221
 Maize streak Reunion virus isolate MSRV RE_StP_PR52_2009,3222
 Maize streak virus isolate MSV B1_Za PlaB g27 2006,3223
-Maize streak virus   [Set],3224
-Maize streak virus   [Raw],3225
+Maize streak virus   Set,3224
+Maize streak virus   Raw,3225
 Maize streak virus isolate MSV E_Za MitA g125 2006,3226
 Maize streak virus isolate MSV F_Ng IntB g88 2007,3227
 Maize streak virus isolate MSV G_Ml Mic25 1987,3228
@@ -3233,11 +3233,11 @@ Maize streak virus isolate MSV J_Zw Mic24 1987,3230
 Maize streak virus isolate MSV K_Ug BusD 2005,3231
 Maize striate mosaic virus isolate MSMV_BR_974_Pla_2016,3232
 Melinis repens associated virus isolate Reunion Bassin plat RE027 2014,3233
-Miscanthus streak virus   [91] DNA,3234
+Miscanthus streak virus   91 DNA,3234
 Oat dwarf virus complete genome,3235
 Panicum streak virus   Karino,3236
-Panicum streak virus isolate PanSV C[ZmGur],3237
-Panicum streak virus isolate PanSV D[NIfo],3238
+Panicum streak virus isolate PanSV CZmGur,3237
+Panicum streak virus isolate PanSV DNIfo,3238
 Panicum streak virus isolate E_KE_Jic10_PSVKN,3239
 Panicum streak virus isolate F_KE_Nye2_g364,3240
 Panicum streak virus isolate G_YT_Coc_g385,3241
@@ -3251,11 +3251,11 @@ Saccharum streak virus isolate SacSV_ZA_Emp_T1_2008,3248
 Sorghum arundinaceum associated virus isolate Reunion Bassin plat RE034 2014,3249
 Sporobolus striate mosaic virus 1 isolate AU 3020_1 2011,3250
 Sugarcane chlorotic streak virus isolate Sc10 SR 1,3251
-Sugarcane streak Egypt virus   [Giza],3252
+Sugarcane streak Egypt virus   Giza,3252
 Sugarcane streak virus reunion,3253
-Sugarcane streak Reunion virus isolate SSRV B[ZmNya],3254
-Sugarcane streak virus   [Natal],3255
-Sugarcane streak virus isolate SSV B[RPie],3256
+Sugarcane streak Reunion virus isolate SSRV BZmNya,3254
+Sugarcane streak virus   Natal,3255
+Sugarcane streak virus isolate SSV BRPie,3256
 Sugarcane striate virus isolate WZG,3257
 Sweet potato symptomless virus 1 isolate Q44429,3258
 Tobacco yellow dwarf virus gene,3259
@@ -6104,7 +6104,7 @@ Coccinia mottle virus isolate Su12 25,6101
 Cucumber vein yellowing virus strain ALM32,6102
 Squash vein yellowing virus isolate Florida,6103
 Eggplant mild leaf mottle virus polyprotein gene,6104
-Ugandan cassava brown streak virus strain UG[Uganda:Namulonge:2004],6105
+Ugandan cassava brown streak virus strain UGUganda:Namulonge:2004,6105
 Ugandan cassava brown streak virus strain Ugandan,6106
 Alpinia oxyphylla mosaic virus isolate Alpo,6107
 Artichoke latent virus isolate FR37,6108
@@ -6862,7 +6862,7 @@ Warrego virus strain AUS1969 01 segment 1,6859
 Yunnan orbivirus segment 1,6860
 Rice dwarf virus segment 1 RNA dependent RNA polymerase gene,6861
 Rice gall dwarf virus genomic RNA,6862
-Rotavirus A strain RVA Simian tc ZAF SA11 H96 1958 G3P5B[2] RNA dependent RNA polymerase protein VP1 (VP1) gene,6863
+Rotavirus A strain RVA Simian tc ZAF SA11 H96 1958 G3P5B2 RNA dependent RNA polymerase protein VP1 (VP1) gene,6863
 Human rotavirus B strain Bang373 RNA dependent RNA polymerase (VP1) mRNA,6864
 Human rotavirus C VP1 gene for structural protein VP1,6865
 Rotavirus F chicken 03V0568 DEU 2003 segment 1,6866
@@ -8594,26 +8594,26 @@ Mycobacterium phage Cambiare,8591
 Mycobacterium phage Taheera,8592
 Exomis microphylla associated virus isolate 2 90 C1,8593
 Ageratum enation virus complete genome,8594
-Ageratum yellow vein China virus [Hn2] complete genome,8595
+Ageratum yellow vein China virus Hn2 complete genome,8595
 Ageratum yellow vein virus segment DNA A,8596
 Asystasia mosaic Madagascar virus isolate MG493 segment DNA A,8597
 Bean leaf crumple virus isolate HA segment DNA A,8598
-Okra yellow vein mosaic virus [201],8599
+Okra yellow vein mosaic virus 201,8599
 Cabbage leaf curl Jamaica virus clone 1910 Cu A6 segment DNA A,8600
-Chilli leaf curl virus [Bhavanisagar:India:2010] segment DNA A,8601
+Chilli leaf curl virus Bhavanisagar:India:2010 segment DNA A,8601
 Tomato leaf curl Joydebpur virus segment DNA A,8602
 Cleome leaf crumple virus isolate BgV05A.1.C75 segment DNA A,8603
 Common bean severe mosaic virus isolate Cuba Mayabeque 99 2014 segment DNA A,8604
-Cotton leaf crumple virus   [TX] coat protein AV1,8605
-Cotton leaf curl Gezira virus [Cotton] A component,8606
+Cotton leaf crumple virus   TX coat protein AV1,8605
+Cotton leaf curl Gezira virus Cotton A component,8606
 Okra leaf curl Mali virus,8607
 Gossypium darwinii symptomless virus isolate Dar1 segment DNA A,8608
-Cowpea golden mosaic virus [Nigeria] DNA A,8609
+Cowpea golden mosaic virus Nigeria DNA A,8609
 Datura leaf distortion virus isolate Venezuela:Rubio 933:2007 segment DNA A,8610
 East African cassava mosaic Kenya virus segment DNA A,8611
 Emilia yellow vein Fujian virus isolate Zz01,8612
-Eupatorium yellow vein virus [Suya] DNA,8613
-Euphorbia yellow mosaic virus   Goias [Brazil:GO:Luziania 8675:2009] segment DNA A,8614
+Eupatorium yellow vein virus Suya DNA,8613
+Euphorbia yellow mosaic virus   Goias Brazil:GO:Luziania 8675:2009 segment DNA A,8614
 Hollyhock yellow vein virus clone VIRO 881,8615
 Honeysuckle yellow vein virus DNA,8616
 Horsegram yellow mosaic virus ac4 gene,8617
@@ -8624,8 +8624,8 @@ Macroptilium yellow spot virus isolate BR:Agf1:10 segment DNA A,8621
 Malvastrum yellow vein Cambodia virus isolate 08 segment DNA A,8622
 Melochia yellow mosaic virus isolate Brazil Corumba B26 2014 segment DNA A,8623
 Merremia mosaic virus segment DNA A,8624
-Okra enation leaf curl virus [India:Munthal EL37:2006] segment DNA A,8625
-Papaya leaf crumple virus Panipat 8 [India:Panipat:Papaya:2008],8626
+Okra enation leaf curl virus India:Munthal EL37:2006 segment DNA A,8625
+Papaya leaf crumple virus Panipat 8 India:Panipat:Papaya:2008,8626
 Papaya leaf curl virus isolate Lucknow segment DNA A,8627
 UNVERIFIED: Papaya leaf curl virus genomic sequence,8628
 Passionfruit leaf distortion virus isolate Colombia Valle 2014 segment A,8629
@@ -8635,16 +8635,16 @@ Pepper yellow leaf curl Thailand virus isolate WF SPN Pep2015 segment DNA A,8632
 Pouzolzia golden mosaic virus isolate TY01 segment DNA A,8633
 Rhynchosia golden mosaic virus strain 1045 segment DNA A,8634
 Sida angular mosaic virus isolate ALS30_4C segment DNA A,8635
-Sida golden mosaic Buckup virus [Jamaica:St. Elizabeth:2004] clone pBuA8 segment DNA A,8636
+Sida golden mosaic Buckup virus Jamaica:St. Elizabeth:2004 clone pBuA8 segment DNA A,8636
 Sida interveinal bright yellow virus isolate Conca 1 segment DNA A,8637
 Sida mosaic Sinaloa virus segment A,8638
-Sida yellow mosaic virus [Brazil] DNA A,8639
-Siegesbeckia yellow vein virus [GD13] complete genome,8640
-Squash leaf curl China virus   [B] segment DNA A,8641
-Stachytarpheta leaf curl virus [Hn5] complete genome,8642
+Sida yellow mosaic virus Brazil DNA A,8639
+Siegesbeckia yellow vein virus GD13 complete genome,8640
+Squash leaf curl China virus   B segment DNA A,8641
+Stachytarpheta leaf curl virus Hn5 complete genome,8642
 Sweet potato leaf curl Hubei virus isolate Hubei22 2017,8643
 Ipomoea yellow vein virus V2,8644
-Sweet potato leaf curl virus isolate SPGVaV RO[BR:Uti:08],8645
+Sweet potato leaf curl virus isolate SPGVaV ROBR:Uti:08,8645
 Tobacco leaf curl Comoros virus cp,8646
 Tobacco mottle leaf curl virus AV1 gene,8647
 Tomato chlorotic mottle virus isolate BR:Flo211:08 segment DNA A,8648
@@ -8661,25 +8661,25 @@ Tomato leaf curl Taiwan virus isolate T2 4 segment DNA A,8658
 Tomato leaf curl virus isolate ToLCND CTS segment DNA A,8659
 Tomato mosaic severe dwarf virus isolate DF 640_AA LVV segment A,8660
 Tomato severe leaf curl virus AV1 gene,8661
-Tomato yellow leaf curl China virus Tb[Y25] complete genome,8662
+Tomato yellow leaf curl China virus TbY25 complete genome,8662
 Tomato yellow leaf curl Malaga virus isolate ES42199,8663
-Tomato yellow leaf curl Thailand virus [Y72] complete genome,8664
-Tomato yellow leaf curl virus [Minab:Iran] isolate TYLCV Ker[IR:Ho32:06],8665
+Tomato yellow leaf curl Thailand virus Y72 complete genome,8664
+Tomato yellow leaf curl virus Minab:Iran isolate TYLCV KerIR:Ho32:06,8665
 Velvet bean golden mosaic virus isolate bgv6 5,8666
 watermelon chlorotic stunt virus DNA A,8667
 Whitefly associated begomovirus 7 isolate Sp5 4,8668
 Citrus chlorotic dwarf associated virus isolate TK4,8669
-Beet mild curly top virus   [Worland],8670
-Grapevine red blotch associated virus isolate JRT[456]17NOV10,8671
+Beet mild curly top virus   Worland,8670
+Grapevine red blotch associated virus isolate JRT45617NOV10,8671
 Chickpea chlorosis Australia virus isolate CpCV D_AU_3494I_2002,8672
 Chickpea chlorotic dwarf virus complete sequence,8673
-Digitaria didactyla striate mosaic virus strain DDSMV [AU:QL:99],8674
-Maize streak virus   A[South Africa] infectious genome,8675
+Digitaria didactyla striate mosaic virus strain DDSMV AU:QL:99,8674
+Maize streak virus   ASouth Africa infectious genome,8675
 Maize streak virus isolate MSV I_Za NewA g217 2007,8676
 Panicum streak virus   Kenya infectious insect_transmissible DNA,8677
 Paspalum dilatatum striate mosaic virus isolate AU 1660 2004,8678
 Sporobolus striate mosaic virus 2 isolate AU 3020_2 2011,8679
-Sugarcane white streak virus isolate SSNV B [SD B0069 2013],8680
+Sugarcane white streak virus isolate SSNV B SD B0069 2013,8680
 Wheat dwarf virus isolate Bavanat,8681
 Sesame yellow mosaic virus isolate SeYMV_386,8682
 Alces alces faeces associated genomovirus MP157,8683
