@@ -2,6 +2,10 @@
 
 PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
 
+# PhaGCN2.1 newly update
+Our database has now been updated based on the latest ICTV classification tables(https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13426/).
+In order to make it easier for users to view the sequence classification in our database, we put the specific sequence information at **database/VMR_based_on_ICTV.csv**
+
 # Required Dependencies
 * Python 3.x
 * Numpy

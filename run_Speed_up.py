@@ -33,11 +33,11 @@ check_folder("Split_files")
 check_folder("network")
 
 try:
-    make_diamond_cmd = 'diamond makedb --threads 8 --in database/ALL_protein.fasta -d database/database.dmnd'
+    make_diamond_cmd = 'diamond makedb --threads 128 --in database/ALL_protein.fasta -d database/database.dmnd'
     print("Creating Diamond database...")
     _ = subprocess.check_call(make_diamond_cmd, shell=True)
     
-    diamond_cmd = 'diamond blastp --threads 8 --sensitive -d database/database.dmnd -q database/ALL_protein.fasta -o database/database.self-diamond.tab'
+    diamond_cmd = 'diamond blastp --threads 128 --sensitive -d database/database.dmnd -q database/ALL_protein.fasta -o database/database.self-diamond.tab'
     print("Running Diamond...")
     _ = subprocess.check_call(diamond_cmd, shell=True)
     diamond_out_fp = "database/database.self-diamond.tab"

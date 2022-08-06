@@ -73,7 +73,7 @@ except:
 """
 parser = argparse.ArgumentParser(description='manual to this script')
 parser.add_argument('--gpus', type=int, default = 0)
-parser.add_argument('--n', type=int, default=109)
+parser.add_argument('--n', type=int, default=172)
 parser.add_argument('--kmers', type=str, default='3,7,11,15')
 parser.add_argument('--t', type=float, default=0.6)
 parser.add_argument('--embed', type=str, default="Embed.pkl")
