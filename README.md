@@ -3,8 +3,11 @@
 PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
 
 # PhaGCN2.1 newly update
-Our database has now been updated based on the latest ICTV classification tables(https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13426/).
+Our database has now been updated based on the latest [ICTV classification tables](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13426).
 In order to make it easier for users to view the sequence classification in our database, we put the specific sequence information at **database/VMR_based_on_ICTV.csv**
+Due to changes to Caudoviricetes in the new version of ICTV(remove Siphoviridae,Myoviridae and Podoviridae), we have extended viruses without family labels to the genus level.
+According to our test, there will be misclassification in the some genus or subfamily of Caudoviricetes(Bronfenbrennervirinae,Nclasvirinae,Benedictvirus,Fromanvirus,Kroosvirus,Triavirus,Turbidovirus,Veracruzvirus), please note
+In fact, the PhaGCN2 results suggest that they are very similar to other genera, such as Gladiatorvirus and Backyardiganvirus.
 
 # Required Dependencies
 * Python 3.x
@@ -56,7 +59,7 @@ As shown in our paper, with the length of contigs increases, the recall and prec
 The shortest length supported is 1700bp.The output file is **final_prediction.csv**. There are three column in this csv file: "contig_name, median_file_name, prediction".
 
 # New changes:
-Now,the given database can support prediction under the all viruses which is base on ICTV 2021 year reporter（https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13175）.In prediction result,we add a prediction result named "Family_like" , if your virus species prediction label is "_like", it indicates that your virus and some viruses in the virus library are the same order but different families of the relationship.
+Now,the given database can support prediction under the all viruses which is base on [ICTV 2021 year reporter](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13175). In prediction result,we add a prediction result named "Family_like" , if your virus species prediction label is "_like", it indicates that your virus and some viruses in the virus library are the same order but different families of the relationship.
 In the **Network** folder will generate a network map file, you can use this file to draw your unique and beautiful network map
 
 # New function
@@ -74,7 +77,7 @@ sh creat.sh
 
 1. Step one:
 In this step,you need make your virus sequences (Known families)in different folder, dividing to training set and validation set.Make sure your virus sequence is longer than 1700BP.(If you have a segmented virus, combine it into a single sequence,Otherwise, it will be divided into several different kinds of viruses)
-Take ICTV 2021 year reporter（https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13175） as an example,there are 11 viral sequences in Lipothrixviridae .
+Take [ICTV 2021 year reporter](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13175) as an example,there are 11 viral sequences in Lipothrixviridae .
 Randomly divide 9 out of 10 sequences to do the training set and 1 to do the test set.Combine the nine training set sequences into a sequence file named Lipothrixviridae and place it in the train folder.Combine the one validation set sequences into a sequence file named Lipothrixviridae and place it in the validation folder.The same goes for the other family.(Ensure that the validation set is non-empty).
 
 Preprocess your data set:
