@@ -6,8 +6,7 @@ PhaGCN2 is a GCN based model, which can learn the species masking feature via de
 Our database has now been updated based on the latest [ICTV classification tables](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13426).
 In order to make it easier for users to view the sequence classification in our database, we put the specific sequence information at **database/VMR_based_on_ICTV.csv**
 Due to changes to Caudoviricetes in the new version of ICTV(remove Siphoviridae,Myoviridae and Podoviridae), we have extended viruses without family labels to the genus level.
-According to our test, there will be misclassification in the some genus or subfamily of Caudoviricetes(Bronfenbrennervirinae,Nclasvirinae,Benedictvirus,Fromanvirus,Kroosvirus,Triavirus,Turbidovirus,Veracruzvirus), please note
-In fact, the PhaGCN2 results suggest that they are very similar to other genera, such as Gladiatorvirus and Backyardiganvirus.
+According to our test, there maybe some misclassification in some genera or subfamily of Caudoviricetes(Bronfenbrennervirinae,Nclasvirinae,Benedictvirus,Fromanvirus,Kroosvirus,Triavirus,Turbidovirus,Veracruzvirus).In fact, the PhaGCN2 results suggest that they are very similar to other genera, such as Gladiatorvirus and Backyardiganvirus.
 
 # Required Dependencies
 * Python 3.x
