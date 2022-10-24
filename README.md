@@ -5,8 +5,14 @@ PhaGCN2 is a GCN based model, which can learn the species masking feature via de
 # PhaGCN2.1 newly update
 Our database has now been updated based on the latest [ICTV classification tables](https://ictv.global/filebrowser/download/585).
 In order to make it easier for users to view the sequence classification in our database, we put the specific sequence information at **database/VMR_based_on_ICTV.csv**
-Due to changes to Caudoviricetes in the new version of ICTV(remove Siphoviridae,Myoviridae and Podoviridae), we have extended viruses without family labels to the genus level.
-According to our test, there maybe some misclassification in some genera or subfamily of Caudoviricetes(Bronfenbrennervirinae,Nclasvirinae,Benedictvirus,Fromanvirus,Kroosvirus,Triavirus,Turbidovirus,Veracruzvirus).In fact, the PhaGCN2 results suggest that they are very similar to other genera, such as Gladiatorvirus and Backyardiganvirus.
+Due to changes to Caudoviricetes in the new version of ICTV(remove Siphoviridae,Myoviridae and Podoviridae), we have two extension of the methods:
+
+1. If you only care about the phage taxa classification, please use the extension version of [PhaGCN](https://github.com/KennthShang/PhaGCN_newICTV)
+2. In PhaGCN2.0, we extended phage without family labels to the genus level.
+
+According to our test, the extension version of PhaGCN still remain high performance for the new ICTV labels at family level.
+For PhaGCN2.0, there maybe some misclassifications in some genus or subfamilies of Caudoviricetes(Bronfenbrennervirinae,Nclasvirinae,Benedictvirus,Fromanvirus,Kroosvirus,Triavirus,Turbidovirus,Veracruzvirus).In fact, the PhaGCN2 results suggest that they are very similar to other genus, such as Gladiatorvirus and Backyardiganvirus.
+
 
 # Required Dependencies
 * Python 3.x
