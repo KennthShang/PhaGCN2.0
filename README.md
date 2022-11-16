@@ -135,6 +135,8 @@ You can type in the command `export MKL_SERVICE_FORCE_INTEL=1` before runing **r
 how to cite this tool:
 ```
 Jiayu Shang, Jingzhe Jiang, Yanni Sun, Bacteriophage classification for assembled contigs using graph convolutional network, Bioinformatics, Volume 37, Issue Supplement_1, July 2021, Pages i25–i33, https://doi.org/10.1093/bioinformatics/btab293
+
+https://www.researchsquare.com/article/rs-1658089/v1
 ```
 
 
