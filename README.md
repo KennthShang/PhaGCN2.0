@@ -40,7 +40,6 @@ cd PhaGCN2.0
 conda env create -f environment.yaml -n phagcn2
 conda activate phagcn2
 export MKL_SERVICE_FORCE_INTEL=1
-pip install sklearn
 ```
 
 You need to prepare the database before using it.
