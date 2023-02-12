@@ -5518,7 +5518,7 @@ TPA_asm:~SsRNA~phage~SRR5466725_14~genomic~sequence,107,107
 TPA_asm:~SsRNA~phage~SRR7976325_12~genomic~sequence,107,107
 TPA_asm:~SsRNA~phage~Gerhypos.4_13~genomic~sequence,107,107
 TPA_asm:~SsRNA~phage~SRR6960551_3~genomic~sequence,107,107
-Poliovirus~P3~Leon~37~(type~3),107,107
+TPA_asm:~SsRNA~phage~Gerhypos.4_15~genomic~sequence,107,107
 TPA_asm:~SsRNA~phage~Gephyllon.3_5~genomic~sequence,107,107
 TPA_asm:~SsRNA~phage~SRR5208570_2~genomic~sequence,107,107
 TPA_asm:~SsRNA~phage~Zoerhiza.1_16~genomic~sequence,107,107
@@ -5845,7 +5845,7 @@ TPA_asm:~SsRNA~phage~ESE015~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.3_10~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.3_11~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.3_20~genomic~sequence,110,110
-Poliovirus~P3~Leon~37~(type~3),110,110
+TPA_asm:~SsRNA~phage~Gerhypos.3_26~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.4_21~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.4_22~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~SRR5466728_4~genomic~sequence,110,110
@@ -5925,7 +5925,7 @@ TPA_asm:~SsRNA~phage~Gephyllon.3_13~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.2_9~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.3_14~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.3_15~genomic~sequence,110,110
-Poliovirus~P3~Leon~37~(type~3),110,110
+TPA_asm:~SsRNA~phage~Gephyllon.3_3~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~SRR6960802_4~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Zoerhiza.4_2~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Zoerhiza.4_23~genomic~sequence,110,110
@@ -5946,7 +5946,7 @@ TPA_asm:~SsRNA~phage~Gephyllon.4_19~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.4_6~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.4_8~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.3_4~genomic~sequence,110,110
-Poliovirus~P3~Leon~37~(type~3),110,110
+TPA_asm:~SsRNA~phage~Gerhypos.3_5~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.3_6~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.3_7~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.3_8~genomic~sequence,110,110
@@ -6111,7 +6111,7 @@ TPA_asm:~SsRNA~phage~Gerhypos.1_25~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.1_13~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Zoerhiza.4_25~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.1_47~genomic~sequence,110,110
-Poliovirus~P3~Leon~37~(type~3),110,110
+TPA_asm:~SsRNA~phage~Gerhypos.1_21~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.1_37~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.1_45~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~SRR5467091_14~genomic~sequence,110,110
@@ -6129,7 +6129,7 @@ TPA_asm:~SsRNA~phage~Gephyllon.4_20~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.2_23~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.1_27~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.2_4~genomic~sequence,110,110
-Poliovirus~P3~Leon~37~(type~3),110,110
+TPA_asm:~SsRNA~phage~Gerhypos.4_12~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.4_14~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.4_57~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.4_62~genomic~sequence,110,110
@@ -6151,10 +6151,10 @@ TPA_asm:~SsRNA~phage~SRR7976301_11~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.3_10~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~SRR5467090_8~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Zoerhiza.1_22~genomic~sequence,110,110
-Poliovirus~P3~Leon~37~(type~3),110,110
+TPA_asm:~SsRNA~phage~Gerhypos.1_31~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~SRR6049586_2~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.1_24~genomic~sequence,110,110
-Poliovirus~P3~Leon~37~(type~3),110,110
+TPA_asm:~SsRNA~phage~Gerhypos.3_14~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Zoerhiza.1_19~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~SRR6255746_3~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gerhypos.3_2~genomic~sequence,110,110
@@ -6179,7 +6179,7 @@ TPA_asm:~SsRNA~phage~Esthiorhiza.2_48~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Esthiorhiza.4_8~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Esthiorhiza.4_13~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.2_4~genomic~sequence,110,110
-Poliovirus~P3~Leon~37~(type~3),110,110
+TPA_asm:~SsRNA~phage~Gephyllon.2_1~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.2_7~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.3_1~genomic~sequence,110,110
 TPA_asm:~SsRNA~phage~Gephyllon.3_18~genomic~sequence,110,110
