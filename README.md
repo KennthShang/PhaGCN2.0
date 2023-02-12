@@ -16,6 +16,10 @@ According to our test, the extension version of PhaGCN still remain high perform
 For PhaGCN2.0, there maybe some misclassifications in some genus or subfamilies of Caudoviricetes(Bronfenbrennervirinae,Nclasvirinae,Benedictvirus,Fromanvirus,Kroosvirus,Triavirus,Turbidovirus,Veracruzvirus).In fact, the PhaGCN2 results suggest that they are very similar to other genus, such as Gladiatorvirus and Backyardiganvirus.
 
 
+## For phage-related task
+Our web server for phage-related tasks (including phage identification, taxonomy classification, lifestyle prediction, and host prediction) is available! You can visit [PhaBOX](https://phage.ee.cityu.edu.hk/) to use the GUI. We also provided more detailed intermediate files and visualization for further analyzation. A stand-alone version of PhaBOX is also available via [GitHub version](https://github.com/KennthShang/PhaBOX), and you can run all these tools at once. Hope you will enjoy it!
+
+
 # Required Dependencies
 * Python 3.x
 * Numpy
