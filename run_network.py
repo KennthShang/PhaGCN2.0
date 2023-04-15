@@ -44,7 +44,7 @@ if file_number("network") == file_number("pred"):
         lines = f.readlines()
     unique_lines = set(lines)
     with open("final_network.ntw", "w") as f:
-        print("node1,node2")
+        f.writelines("node1,node2")
         f.writelines(unique_lines)
     cmd3 = "rm -rf medium.txt"
     out = subprocess.check_call(cmd3, shell=True)
