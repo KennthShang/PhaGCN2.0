@@ -36,7 +36,7 @@ try:
     make_diamond_cmd = 'diamond makedb --threads 128 --in database/ALL_protein.fasta -d database/database.dmnd'
     print("Creating Diamond database...")
     _ = subprocess.check_call(make_diamond_cmd, shell=True)
-    
+
     diamond_cmd = 'diamond blastp --threads 128 --sensitive -d database/database.dmnd -q database/ALL_protein.fasta -o database/database.self-diamond.tab'
     print("Running Diamond...")
     _ = subprocess.check_call(diamond_cmd, shell=True)
@@ -124,7 +124,11 @@ for i in range(file_id):
     cmd = "rm name_list.csv prediction.csv"
     out = subprocess.check_call(cmd, shell=True)
 
-
-cmd = "cat pred/* > final_prediction.csv"
-out = subprocess.check_call(cmd, shell=True)
+try:
+    cmd = "cat pred/* > final_prediction.csv"
+    out = subprocess.check_call(cmd, shell=True)
+    cmd1 = "python run_network.py"
+    out = subprocess.check_call(cmd1, shell=True)
+except:
+    ("There is no sequence with a predicted result")
 

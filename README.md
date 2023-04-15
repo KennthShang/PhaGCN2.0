@@ -3,6 +3,9 @@
 PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
 
 
+# PhaCGN2.2 newly update
+To better show the results of the network result, we can now export the total network file **final_network.ntw**. 
+In order to distinguish the test points of different batches, the test node ID are renamed as "test"+ betches number +sequence ID,such as "test_0_NC_001825.1".
 
 # PhaGCN2.1 newly update
 Our database has now been updated based on the latest [ICTV classification tables](https://ictv.global/filebrowser/download/585).
@@ -42,8 +45,6 @@ We recommend you to install all the package with Anaconda.The command that you n
 ```bash
 cd PhaGCN2.0
 conda env create -f environment.yaml -n phagcn2
-conda activate phagcn2
-export MKL_SERVICE_FORCE_INTEL=1
 ```
 
 You need to prepare the database before using it.
@@ -56,10 +57,16 @@ and you can use it to make virus classification.
 
 
 # Usage (example)
+Before you use it each time, you need to run is 
+```bash
+conda activate phagcn2
+export MKL_SERVICE_FORCE_INTEL=1
+```
+
 Here we present an example to show how to run PhaGCN2. We support a file named "contigs.fa" in the Github folder and it contain contigs simulated from E. coli phage. The only command that you need to run is 
 
 ```bash
-$ python run_Speed_up.py --contigs contigs.fa --len 8000
+python run_Speed_up.py --contigs contigs.fa --len 8000
 ```
 
 There are two parameters for the program: 
