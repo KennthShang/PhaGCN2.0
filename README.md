@@ -6,7 +6,7 @@ PhaGCN2 is a GCN based model, which can learn the species masking feature via de
 Update Log (August 29, 2024)
 * Our database has now been updated based on the latest [ICTV classification tables](https://ictv.global/vmr/current?fid=15873#block-teamplus-page-title). (**Special note**: The new ICTV classification database is nearly **5000** more than the previous version. This caused the program to run nearly **twice** as slowly as before. We are trying to optimize the basic algorithm to improve the classification speed. )
 * The output file path parameter has been added. `--outpath` is the output file path of your result.
-*  The classification results now include the full path of the classification information (notice: not all viruses have a complete taxonomic path, all classification paths strictly match the classification criteria of ICTV). 
+*  The classification results now include the full path of the classification information (notice: not all viruses have a complete taxonomic path, all classification paths strictly match the classification criteria of ICTV. r:Realm, sr:Subrealm, k:Kingdom, sk:Subkingdom, p:Phylum, sp:Subphylum, c:Class, sc:Subclass, o:Order, so:Suborder, f:Family, sf:Subfamily ,g:Genus). 
 
 # PhaGCN2.2 newly update
 To better show the results of the network result, we can now export the total network file **final_network.ntw**. 
@@ -153,5 +153,4 @@ Jiayu Shang, Jingzhe Jiang, Yanni Sun, Bacteriophage classification for assemble
 
 Jing-Zhe Jiang, Wen-Guang Yuan, Jiayu Shang, Ying-Hui Shi, Li-Ling Yang, Min Liu, Peng Zhu, Tao Jin, Yanni Sun, Li-Hong Yuan, Virus classification for viral genomic fragments using PhaGCN2, Briefings in Bioinformatics, 2022;, bbac505, https://doi.org/10.1093/bib/bbac505
 ```
-
 
