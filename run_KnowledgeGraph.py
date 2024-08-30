@@ -17,16 +17,17 @@ from Bio.SeqRecord import SeqRecord
 
 
 # Defined folder
-out_f = "out/"
-contig_in = "input/"
-contig_out = "single_contig/"
-file_in_fn = "single_contig/"
-file_out_fn = "all_proteins/"
-Knowledge_graph = "Cyber_data/"
-
 parser = argparse.ArgumentParser(description='manual to this script')
+parser.add_argument('--outpath', type=str, default = "result")
 parser.add_argument('--n', type=int, default = 0)
 args = parser.parse_args()
+
+out_f = f"{args.outpath}/out/"
+contig_in = f"{args.outpath}/input/"
+contig_out = f"{args.outpath}/single_contig/"
+file_in_fn = f"{args.outpath}/single_contig/"
+file_out_fn = f"{args.outpath}/all_proteins/"
+Knowledge_graph = f"{args.outpath}/Cyber_data/"
 ################################################################################
 ############################  Check the folder #################################
 ################################################################################
@@ -80,7 +81,7 @@ file_list = sorted(os.listdir(contig_in))
 seq = []
 old_file_id = 0
 contig_id = 0
-with open("name_list.csv",'w') as list_out:
+with open(f"{args.outpath}/name_list.csv",'w') as list_out:
     list_out.write("contig_name,idx\n")
     for file_n in file_list:
         for record in SeqIO.parse(contig_in+file_n, "fasta"):
@@ -427,9 +428,9 @@ def create_network(matrix, singletons, thres=1, max_sig=1000):
 
 
 # Loding dataset
-contigs_df = pd.read_csv("out/Cyber_contigs.csv")
-clusters_df = pd.read_csv("out/Cyber_pcs.csv")
-profiles_df = pd.read_csv("out/Cyber_profiles.csv")
+contigs_df = pd.read_csv(f"{args.outpath}/out/Cyber_contigs.csv")
+clusters_df = pd.read_csv(f"{args.outpath}/out/Cyber_pcs.csv")
+profiles_df = pd.read_csv(f"{args.outpath}/out/Cyber_profiles.csv")
 
 # Replace names
 contigs_csv_df = contigs_df.copy()
@@ -515,7 +516,7 @@ contig_set = list(set(gene2genome["contig_id"].values))
 ID_to_ref = {i:ref for i, ref in enumerate(contig_set)}
 ref_to_ID = {ref:i for i, ref in enumerate(contig_set)}
 
-fn = "single_contig/"
+fn = f"{args.outpath}/single_contig/"
 contig_to_id = {}
 file_list = os.listdir(fn)
 file_list = sorted(file_list)
@@ -527,7 +528,7 @@ for file_n in file_list:
 # record the row id for each contigs
 id_to_contig = {value: key for key, value in contig_to_id.items()}
 
-fn = "out/"
+fn = f"{args.outpath}/out/"
 blastp = pd.read_csv(contig_abc_fp, sep=" ", names = ["contigs", "ref", "e-value"])
 gene_to_genome = pd.read_csv(fn+"contig_gene_to_genome.csv", sep=",")
 
@@ -643,7 +644,7 @@ for node in node_list:
         G.remove_node(node)
 
 test_to_id = {}
-class_to_label = {53:53,37:37,107:107,133:133,89:89,168:168,160:160,43:43,167:167,67:67,54:54,102:102,77:77,119:119,24:24,91:91,41:41,12:12,157:157,135:135,50:50,94:94,103:103,97:97,116:116,115:115,70:70,87:87,170:170,40:40,74:74,96:96,122:122,130:130,73:73,38:38,76:76,46:46,112:112,161:161,28:28,34:34,59:59,150:150,140:140,31:31,155:155,17:17,128:128,129:129,5:5,51:51,106:106,121:121,123:123,47:47,29:29,33:33,15:15,21:21,66:66,154:154,149:149,22:22,95:95,105:105,44:44,64:64,165:165,171:171,152:152,110:110,71:71,18:18,56:56,75:75,85:85,166:166,127:127,169:169,90:90,26:26,162:162,81:81,104:104,148:148,158:158,62:62,80:80,120:120,2:2,45:45,19:19,139:139,36:36,4:4,42:42,98:98,156:156,132:132,1:1,16:16,52:52,63:63,13:13,86:86,68:68,49:49,72:72,108:108,109:109,61:61,6:6,100:100,23:23,92:92,99:99,79:79,0:0,25:25,144:144,88:88,113:113,55:55,83:83,8:8,78:78,65:65,7:7,69:69,126:126,48:48,14:14,93:93,134:134,117:117,32:32,11:11,57:57,145:145,141:141,163:163,118:118,147:147,20:20,39:39,58:58,143:143,142:142,151:151,101:101,153:153,164:164,136:136,125:125,114:114,138:138,60:60,146:146,131:131,30:30,10:10,124:124,137:137,27:27,35:35,3:3,9:9,82:82,84:84,159:159,111:111}
+class_to_label = {56:56,62:62,174:174,199:199,66:66,117:117,29:29,157:157,212:212,38:38,9:9,106:106,153:153,46:46,98:98,154:154,79:79,129:129,101:101,108:108,204:204,203:203,124:124,191:191,188:188,1:1,10:10,180:180,131:131,42:42,58:58,159:159,173:173,175:175,20:20,166:166,120:120,88:88,151:151,134:134,67:67,27:27,2:2,90:90,0:0,182:182,208:208,183:183,13:13,57:57,21:21,47:47,95:95,186:186,43:43,91:91,181:181,63:63,12:12,8:8,197:197,209:209,195:195,99:99,135:135,143:143,3:3,64:64,69:69,105:105,19:19,111:111,142:142,190:190,150:150,50:50,68:68,28:28,94:94,17:17,44:44,130:130,24:24,81:81,107:107,78:78,83:83,5:5,41:41,176:176,104:104,102:102,72:72,210:210,140:140,74:74,185:185,86:86,163:163,200:200,70:70,97:97,155:155,7:7,138:138,198:198,145:145,128:128,127:127,39:39,16:16,217:217,184:184,15:15,169:169,126:126,100:100,139:139,61:61,14:14,137:137,11:11,164:164,122:122,193:193,60:60,85:85,213:213,149:149,35:35,172:172,82:82,156:156,45:45,114:114,77:77,206:206,215:215,152:152,161:161,30:30,113:113,84:84,53:53,89:89,168:168,48:48,144:144,211:211,148:148,54:54,109:109,37:37,125:125,189:189,205:205,87:87,165:165,93:93,52:52,22:22,115:115,192:192,49:49,202:202,71:71,214:214,103:103,4:4,160:160,34:34,55:55,179:179,110:110,133:133,201:201,158:158,170:170,123:123,96:96,132:132,40:40,59:59,75:75,162:162,65:65,33:33,136:136,36:36,141:141,32:32,76:76,167:167,92:92,171:171,6:6,23:23,146:146,73:73,194:194,216:216,177:177,207:207,51:51,80:80,196:196,31:31,178:178,116:116,147:147,119:119,118:118,187:187,112:112,121:121,18:18,25:25,26:26}
 # Generating the Knowledge Graph
 print("\n\n" + "{:-^80}".format("Generating Knowledge graph"))
 mode = "testing"
@@ -667,11 +668,11 @@ if mode == "validation":
                     print(node)
             else:
                 print(node)
-    pkl.dump(test_mask, open("Cyber_data/contig.mask", "wb" ) )
-    pkl.dump(label, open("Cyber_data/contig.label", "wb" ) )
+    pkl.dump(test_mask, open(f"{args.outpath}/Cyber_data/contig.mask", "wb" ) )
+    pkl.dump(label, open(f"{args.outpath}/Cyber_data/contig.label", "wb" ) )
     adj = nx.adjacency_matrix(G)
-    pkl.dump(adj, open("Cyber_data/contig.graph", "wb" ) )
-    pkl.dump(test_to_id, open("Cyber_data/contig.dict", "wb" ) )
+    pkl.dump(adj, open(f"{args.outpath}/Cyber_data/contig.graph", "wb" ) )
+    pkl.dump(test_to_id, open(f"{args.outpath}/Cyber_data/contig.dict", "wb" ) )
 
 
 
@@ -694,15 +695,15 @@ if mode == "testing":
                     print(node)
             else:
                 print(node)
-    pkl.dump(test_mask, open("Cyber_data/contig.mask", "wb" ) )
+    pkl.dump(test_mask, open(f"{args.outpath}/Cyber_data/contig.mask", "wb" ) )
     adj = nx.adjacency_matrix(G)
-    pkl.dump(adj, open("Cyber_data/contig.graph", "wb" ) )
-    pkl.dump(test_to_id, open("Cyber_data/contig.dict", "wb" ) )
+    pkl.dump(adj, open(f"{args.outpath}/Cyber_data/contig.graph", "wb" ) )
+    pkl.dump(test_to_id, open(f"{args.outpath}/Cyber_data/contig.dict", "wb" ) )
 
 
 # contructing feature map
 fn = "database"
-contig_feature = pkl.load(open("Cyber_data/contig.F",'rb'))
+contig_feature = pkl.load(open(f"{args.outpath}/Cyber_data/contig.F",'rb'))
 database_feature = pkl.load(open(fn+"/dataset_compressF",'rb'))
 
 feature = []
@@ -719,9 +720,9 @@ for node in G.nodes():
 
 feature = np.array(feature)
 if mode == "testing":
-    pkl.dump(feature, open("Cyber_data/contig.feature", "wb" ) )
+    pkl.dump(feature, open(f"{args.outpath}/Cyber_data/contig.feature", "wb" ) )
 else:
-    pkl.dump(feature, open("Cyber_data/contig.feature", "wb" ) )
+    pkl.dump(feature, open(f"{args.outpath}/Cyber_data/contig.feature", "wb" ) )
 
 
 # Graph check for each testing samples
@@ -744,10 +745,11 @@ for node in G.nodes:
 
 
 
-with open("network/phage_"+str(args.n)+".ntw","w") as out_f:
+with open(f"{args.outpath}/network/phage_"+str(args.n)+".ntw","w") as out_f:
     for node in G.nodes:
         for edge in G.edges(node):
             neighbor = edge[1]
             out_f.write(node+","+neighbor+"\n")
 
-pkl.dump(label, open("Cyber_data/contig.label", "wb" ) )
+pkl.dump(label, open(f"{args.outpath}/Cyber_data/contig.label", "wb" ) )
+

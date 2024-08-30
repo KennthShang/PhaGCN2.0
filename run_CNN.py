@@ -11,6 +11,36 @@ from CNNmodel import CAPCNN
 import argparse
 import pickle as pkl
 
+
+
+"""
+===============================================================
+                        Input Params
+===============================================================
+"""
+parser = argparse.ArgumentParser(description='manual to this script')
+parser.add_argument('--gpus', type=int, default = 0)
+parser.add_argument('--n', type=int, default=218)
+parser.add_argument('--kmers', type=str, default='3,7,11,15')
+parser.add_argument('--t', type=float, default=0.6)
+parser.add_argument('--embed', type=str, default="Embed.pkl")
+parser.add_argument('--classifier', type=str, default="Params.pkl")
+parser.add_argument('--rejection', type=str, default="N")
+parser.add_argument('--outpath', type=str, default="result")
+args = parser.parse_args()
+
+kmers = args.kmers
+kmers = kmers.split(',')
+kmers = list(map(int, kmers))
+
+if not os.path.exists(f"{args.outpath}/CNN_Classifier/"):
+    _ = subprocess.check_call(f"cp -r CNN_Classifier/ {args.outpath}/CNN_Classifier/", shell=True)
+try:
+    os.chdir(f"{args.outpath}/CNN_Classifier/")
+except:
+    print("no CNN classifier is avaliable")
+    exit(1)
+
 contig_in = "../input/"
 contig_out = "validation/"
 Knowledge_graph = "Cyber_data/"
@@ -35,12 +65,6 @@ else:
 #        _ = subprocess.check_call("rm {0}*".format(Knowledge_graph), shell=True)
 #    except:
 #        print("Cannot clean your folder... permission denied")
-    
-try:
-    os.chdir("CNN_Classifier/")
-except:
-    print("no CNN classifier is avaliable")
-    exit(1)
 
 _ = os.system("bash clean_all_script.sh")
 file_list = sorted(os.listdir(contig_in))
@@ -63,27 +87,6 @@ try:
 except:
     print("Script error")
     exit(1)
-
-
-
-"""
-===============================================================
-                        Input Params
-===============================================================
-"""
-parser = argparse.ArgumentParser(description='manual to this script')
-parser.add_argument('--gpus', type=int, default = 0)
-parser.add_argument('--n', type=int, default=172)
-parser.add_argument('--kmers', type=str, default='3,7,11,15')
-parser.add_argument('--t', type=float, default=0.6)
-parser.add_argument('--embed', type=str, default="Embed.pkl")
-parser.add_argument('--classifier', type=str, default="Params.pkl")
-parser.add_argument('--rejection', type=str, default="N")
-args = parser.parse_args()
-
-kmers = args.kmers
-kmers = kmers.split(',')
-kmers = list(map(int, kmers))
 
 
 """

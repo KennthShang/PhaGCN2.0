@@ -2,8 +2,13 @@
 
 PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
 
+# PhaGCN2.3 newly update
+Update Log (August 29, 2024)
+* Our database has now been updated based on the latest [ICTV classification tables](https://ictv.global/vmr/current?fid=15873#block-teamplus-page-title). (**Special note**: The new ICTV classification database is nearly **5000** more than the previous version. This caused the program to run nearly **twice** as slowly as before. We are trying to optimize the basic algorithm to improve the classification speed. )
+* The output file path parameter has been added. `--outpath` is the output file path of your result.
+*  The classification results now include the full path of the classification information (notice: not all viruses have a complete taxonomic path, all classification paths strictly match the classification criteria of ICTV). 
 
-# PhaCGN2.2 newly update
+# PhaGCN2.2 newly update
 To better show the results of the network result, we can now export the total network file **final_network.ntw**. 
 In order to distinguish the test points of different batches, the test node ID are renamed as "test"+ betches number +sequence ID,such as "test_0_NC_001825.1".
 
