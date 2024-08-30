@@ -63,7 +63,7 @@ def create_dict_from_first_file(file1):
     return result_dict
 f1 = open(f"{args.outpath}/result.txt","r")
 result_dict = create_dict_from_first_file("database/taxonomic_path.csv")
-g1 = open(f"{args.outpath}/final_network.ntw","w")
+g1 = open(f"{args.outpath}/final_prediction.csv","w")
 print("contig_name,idx,prediction,full_path",file = g1)
 for each in f1:
     each = each.strip()
