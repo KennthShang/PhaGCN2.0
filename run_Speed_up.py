@@ -16,7 +16,10 @@ parser.add_argument('-v', '--version', action='version', version=VERSION)
 args = parser.parse_args()
 print("\n\n" + "{:-^80}".format("PhaGCN2 version"))
 print(VERSION)
-print("\n\n" + "{:-^80}".format("start PhaGCN2"))
+print("\n\n" + "{:-^80}".format("start PhaGCN2,check result folder"))
+if os.path.exists(f"{args.outpath}"):
+    print("folder {0} exist... please make sure the result folder is different when you run it multiple times".format(f"{args.outpath}"))
+
 def check_folder(file_name):
     if not os.path.exists(file_name):
         _ = os.makedirs(file_name)
@@ -30,7 +33,7 @@ def check_folder(file_name):
             except:
                 print("Cannot clean your folder... permission denied")
                 exit(1)
-
+check_folder(f"{args.outpath}")
 check_folder(f"{args.outpath}/input")
 check_folder(f"{args.outpath}/pred")
 check_folder(f"{args.outpath}/Split_files")
