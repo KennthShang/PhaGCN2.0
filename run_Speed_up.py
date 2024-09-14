@@ -135,7 +135,8 @@ for i in range(file_id):
         continue
 # 
 # # Clean files
-
+    cmd = "rm input/*"
+    out = subprocess.check_call(cmd, shell=True)
     name_list = pd.read_csv(f"{args.outpath}/name_list.csv")
     prediction = pd.read_csv(f"{args.outpath}/prediction.csv")
     prediction = prediction.rename(columns={'contig_names':'idx'})
