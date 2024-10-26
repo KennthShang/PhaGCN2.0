@@ -5,7 +5,7 @@ PhaGCN2 is a GCN based model, which can learn the species masking feature via de
 
 
 ## For comprehensive usage
-Our web server for virus-related tasks (including virus identification, taxonomy classification, lifestyle prediction, host prediction, contamination detection, vOTU grouping, and phylogenetic tree construction) has been upgraded to version 2! You can visit [PhaBOX](https://phage.ee.cityu.edu.hk/) to use the GUI. We also provided more detailed intermediate files and visualization for further analysis. A stand-alone version of PhaBOX is also available via [GitHub version](https://github.com/KennthShang/PhaBOX), and you can run all these tools at once. Hope you will enjoy it!
+Our web server for virus-related tasks (including virus identification, taxonomy classification, lifestyle prediction, host prediction, contamination detection, vOTU grouping, and phylogenetic tree construction) has been upgraded to version 2! The new version has a higher running speed and is generalized to all kinds of viruses. You can visit [PhaBOX](https://phage.ee.cityu.edu.hk/) to use the GUI. We also provided more detailed intermediate files and visualization for further analysis. A stand-alone version of PhaBOX is also available via [GitHub version](https://github.com/KennthShang/PhaBOX), and you can run all these tools at once. Hope you will enjoy it!
 
 
 # PhaGCN2.3 newly update
