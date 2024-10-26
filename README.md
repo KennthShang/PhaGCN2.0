@@ -2,6 +2,12 @@
 
 PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
 
+
+
+## For comprehensive usage
+Our web server for virus-related tasks (including virus identification, taxonomy classification, lifestyle prediction, host prediction, contamination detection, vOTU grouping, and phylogenetic tree construction) has been upgraded to version 2! You can visit [PhaBOX](https://phage.ee.cityu.edu.hk/) to use the GUI. We also provided more detailed intermediate files and visualization for further analysis. A stand-alone version of PhaBOX is also available via [GitHub version](https://github.com/KennthShang/PhaBOX), and you can run all these tools at once. Hope you will enjoy it!
+
+
 # PhaGCN2.3 newly update
 Update Log (August 29, 2024)
 * Our database has now been updated based on the latest [ICTV classification tables](https://ictv.global/vmr/current?fid=15873#block-teamplus-page-title). (**Special note**: The new ICTV classification database is nearly **5000** more than the previous version. This caused the program to run nearly **twice** as slowly as before. We are trying to optimize the basic algorithm to improve the classification speed. )
@@ -24,8 +30,6 @@ According to our test, the extension version of PhaGCN still remain high perform
 For PhaGCN2.0, there maybe some misclassifications in some genus or subfamilies of Caudoviricetes(Bronfenbrennervirinae,Nclasvirinae,Benedictvirus,Fromanvirus,Kroosvirus,Triavirus,Turbidovirus,Veracruzvirus).In fact, the PhaGCN2 results suggest that they are very similar to other genus, such as Gladiatorvirus and Backyardiganvirus.
 
 
-## For phage-related task
-Our web server for phage-related tasks (including phage identification, taxonomy classification, lifestyle prediction, and host prediction) is available! You can visit [PhaBOX](https://phage.ee.cityu.edu.hk/) to use the GUI. We also provided more detailed intermediate files and visualization for further analyzation. A stand-alone version of PhaBOX is also available via [GitHub version](https://github.com/KennthShang/PhaBOX), and you can run all these tools at once. Hope you will enjoy it!
 
 
 # Required Dependencies
