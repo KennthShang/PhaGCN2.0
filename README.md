@@ -1,10 +1,34 @@
+# Preview of PhaGCN3 (December 23,2024)
+
+We are planning to update PhaGCN3.  Here's the link to the PhaGCN3 test version: https://github.com/xiahaolong/PhaGCN3PhaGCN3 
+
+implemented updates: 
+
+* **Memory Optimization**: In the previous version, PhaGCN2, we used a batch size of 1000 to save memory. This resulted in a lack of connectivity between batches in the network graph. In this update, we have adjusted the batch size to 100,000, which should be sufficient for the classification of most viral genome datasets. If with sufficient system memory, you could process millions of viral sequences in one batch.
+
+* **Runtime Optimization**: Thanks to updates in [Python 3.13](https://www.python.org/downloads/release/python-3130/?featured_on=pythonbytes), most steps now utilize multithreading. We have implemented this in PhaGCN3, significantly increasing the speed of virus classification. On a machine with 64 CPUs and 256GB of RAM, classifying 60,000 viral sequences takes about 7.5 hours. Because classification requires constructing a network graph, we do not recommend processing an excessively large number of sequences (>100000) in one batch. As the number of virus increases, the time and memory taken will increases exponentially
+
+* **Precision Optimization**: During previous testing, we identified isolated connected subgraphs in the network graph predicted as "_like".  The precision of these subgraphs was poor due to uncertainties inherent in the GCN graph.  Therefore, we extracted these clusters and introduced [Genomad](https://github.com/apcamargo/genomad/) for classification.  PhaGCN3 currently only assigns a cluster ID to these nodes，but the specific classification of this cluster is now provided by [Genomad](https://github.com/apcamargo/genomad/). Viruses with the same cluster ID exhibit high similarity.
+
+* **Results Optimization**: We have introduced a confidence score for the classification results.  Results with a confidence score above 0.5 are considered high-confidence predictions.
+
+* **Visualization Optimization**:We now support direct output of network graph visualizations, as shown in the image below. We have tested and confirmed that the current version supports visualizing network graphs with fewer than 70,000 nodes. If you need more flexible visualization options, we also provide a network source file compatible with [Gephi](https://gephi.org/) , located at **tmp/node.csv,tmp/edge.csv** in the **results** folder.
+
+  <img src="https://wenguang.oss-cn-hangzhou.aliyuncs.com/figure/image-20241218170530956.png" style="zoom:50%;" />
+
 # PhaGCN2
 
 PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
 
+
+
+## For comprehensive usage
+Our web server for virus-related tasks (including virus identification, taxonomy classification, lifestyle prediction, host prediction, contamination detection, vOTU grouping, and phylogenetic tree construction) has been upgraded to version 2! The new version has a higher running speed and is generalized to all kinds of viruses. You can visit [PhaBOX2](https://phage.ee.cityu.edu.hk/) to use the GUI. We also provided more detailed intermediate files and visualization for further analysis. A stand-alone version of PhaBOX is also available via [GitHub version of PhaBOX2](https://github.com/KennthShang/PhaBOX), and you can run all these tools at once. Hope you will enjoy it!
+
+
 # PhaGCN2.3 newly update
 Update Log (August 29, 2024)
-* Our database has now been updated based on the latest [ICTV classification tables](https://ictv.global/vmr/current?fid=15873#block-teamplus-page-title). (**Special note**: The new ICTV classification database is nearly **5000** more than the previous version. This caused the program to run nearly **twice** as slowly as before. We are trying to optimize the basic algorithm to improve the classification speed. )
+* Our database has now been updated based on the latest [ICTV classification tables](https://ictv.global/sites/default/files/VMR/VMR_MSL39.v1_20240912.xlsx). (Special note: The new ICTV classification database is nearly 5000 more than the previous version. This caused the program to run nearly twice as slowly as before. We are trying to optimize the basic algorithm to improve the classification speed. )
 * The output file path parameter has been added. `--outpath` is the output file path of your result.
 *  The classification results now include the full path of the classification information (notice: not all viruses have a complete taxonomic path, all classification paths strictly match the classification criteria of ICTV. r:Realm, sr:Subrealm, k:Kingdom, sk:Subkingdom, p:Phylum, sp:Subphylum, c:Class, sc:Subclass, o:Order, so:Suborder, f:Family, sf:Subfamily ,g:Genus). 
 
@@ -24,8 +48,6 @@ According to our test, the extension version of PhaGCN still remain high perform
 For PhaGCN2.0, there maybe some misclassifications in some genus or subfamilies of Caudoviricetes(Bronfenbrennervirinae,Nclasvirinae,Benedictvirus,Fromanvirus,Kroosvirus,Triavirus,Turbidovirus,Veracruzvirus).In fact, the PhaGCN2 results suggest that they are very similar to other genus, such as Gladiatorvirus and Backyardiganvirus.
 
 
-## For phage-related task
-Our web server for phage-related tasks (including phage identification, taxonomy classification, lifestyle prediction, and host prediction) is available! You can visit [PhaBOX](https://phage.ee.cityu.edu.hk/) to use the GUI. We also provided more detailed intermediate files and visualization for further analyzation. A stand-alone version of PhaBOX is also available via [GitHub version](https://github.com/KennthShang/PhaBOX), and you can run all these tools at once. Hope you will enjoy it!
 
 
 # Required Dependencies

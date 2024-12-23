@@ -648,33 +648,6 @@ class_to_label = {56:56,62:62,174:174,199:199,66:66,117:117,29:29,157:157,212:21
 # Generating the Knowledge Graph
 print("\n\n" + "{:-^80}".format("Generating Knowledge graph"))
 mode = "testing"
-if mode == "validation":
-    test_mask = []
-    label = []
-    cnt = 0
-    for node in G.nodes():
-        try:
-            label.append(class_to_label[contig_to_family[node]])
-            cnt+=1
-        except:
-            if "_" in node:
-                try:
-                    class_ = int(node.split("_")[0])
-                    label.append(class_)
-                    test_mask.append(cnt)
-                    test_to_id[node] = cnt
-                    cnt+=1
-                except:
-                    print(node)
-            else:
-                print(node)
-    pkl.dump(test_mask, open(f"{args.outpath}/Cyber_data/contig.mask", "wb" ) )
-    pkl.dump(label, open(f"{args.outpath}/Cyber_data/contig.label", "wb" ) )
-    adj = nx.adjacency_matrix(G)
-    pkl.dump(adj, open(f"{args.outpath}/Cyber_data/contig.graph", "wb" ) )
-    pkl.dump(test_to_id, open(f"{args.outpath}/Cyber_data/contig.dict", "wb" ) )
-
-
 
 if mode == "testing":
     test_mask = []
