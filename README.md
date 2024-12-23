@@ -1,6 +1,6 @@
 # Preview of PhaGCN3 (December 23,2024)
 
-We are planning to update PhaGCN3.  Here's the link to the PhaGCN3 test version: https://github.com/xiahaolong/PhaGCN3PhaGCN3 
+We are planning to update PhaGCN3.  Here's the link to the PhaGCN3 test version: https://github.com/xiahaolong/PhaGCN3 
 
 implemented updates: 
 
