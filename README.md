@@ -1,3 +1,9 @@
+
+## For comprehensive usage
+Our web server for virus-related tasks (including virus identification, taxonomy classification, lifestyle prediction, host prediction, contamination detection, vOTU grouping, and phylogenetic tree construction) has been upgraded to version 2! The new version has a higher running speed and is generalized to all kinds of viruses. You can visit [PhaBOX2](https://phage.ee.cityu.edu.hk/) to use the GUI. We also provided more detailed intermediate files and visualization for further analysis. A stand-alone version of PhaBOX is also available via [GitHub version of PhaBOX2](https://github.com/KennthShang/PhaBOX), and you can run all these tools at once. Hope you will enjoy it!
+
+
+
 # Preview of PhaGCN3 (December 23,2024)
 
 We are planning to update PhaGCN3.  Here's the link to the PhaGCN3 test version: https://github.com/xiahaolong/PhaGCN3 
@@ -20,10 +26,6 @@ implemented updates:
 
 PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
 
-
-
-## For comprehensive usage
-Our web server for virus-related tasks (including virus identification, taxonomy classification, lifestyle prediction, host prediction, contamination detection, vOTU grouping, and phylogenetic tree construction) has been upgraded to version 2! The new version has a higher running speed and is generalized to all kinds of viruses. You can visit [PhaBOX2](https://phage.ee.cityu.edu.hk/) to use the GUI. We also provided more detailed intermediate files and visualization for further analysis. A stand-alone version of PhaBOX is also available via [GitHub version of PhaBOX2](https://github.com/KennthShang/PhaBOX), and you can run all these tools at once. Hope you will enjoy it!
 
 
 # PhaGCN2.3 newly update
