@@ -3,9 +3,23 @@
 - The program has been updated and moved to [PhaBOX 2](https://github.com/KennthShang/PhaBOX), which is more user-friendly. In the new version, PhaGCN is generalized to all kinds of viruses, more than just phages. Hope you will enjoy it. This folder will be no longer 
 
 
+### updates (December 23,2024)
+ 
+implemented updates: 
+ 
+ * **Memory Optimization**: In the previous version, PhaGCN2, we used a batch size of 1000 to save memory. This resulted in a lack of connectivity between batches in the network graph. In this update, we have adjusted the batch size to 100,000, which should be sufficient for the classification of most viral genome datasets. If with sufficient system memory, you could process millions of viral sequences in one batch.
+ 
+ * **Runtime Optimization**: Thanks to updates in [Python 3.13](https://www.python.org/downloads/release/python-3130/?featured_on=pythonbytes), most steps now utilize multithreading. We have implemented this in PhaGCN3, significantly increasing the speed of virus classification. On a machine with 64 CPUs and 256GB of RAM, classifying 60,000 viral sequences takes about 7.5 hours. Because classification requires constructing a network graph, we do not recommend processing an excessively large number of sequences (>100000) in one batch. As the number of virus increases, the time and memory taken will increases exponentially
+ 
+ * **Precision Optimization**: During previous testing, we identified isolated connected subgraphs in the network graph predicted as "_like".  The precision of these subgraphs was poor due to uncertainties inherent in the GCN graph.  Therefore, we extracted these clusters and introduced [Genomad](https://github.com/apcamargo/genomad/) for classification.  PhaGCN3 currently only assigns a cluster ID to these nodes，but the specific classification of this cluster is now provided by [Genomad](https://github.com/apcamargo/genomad/). Viruses with the same cluster ID exhibit high similarity.
+ 
+ * **Results Optimization**: We have introduced a confidence score for the classification results.  Results with a confidence score above 0.5 are considered high-confidence predictions.
+ 
+ * **Visualization Optimization**:We now support direct output of network graph visualizations, as shown in the image below. We have tested and confirmed that the current version supports visualizing network graphs with fewer than 70,000 nodes. If you need more flexible visualization options, we also provide a network source file compatible with [Gephi](https://gephi.org/) , located at **tmp/node.csv,tmp/edge.csv** in the **results** folder.
+ 
+   <img src="https://wenguang.oss-cn-hangzhou.aliyuncs.com/figure/image-20241218170530956.png" style="zoom:50%;" />
 
-
-# PhaGCN2
+## PhaGCN2
 
 PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
 
