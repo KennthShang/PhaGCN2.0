@@ -1,6 +1,6 @@
 # ATTNETION!!!
 
-- The program has been updated and moved to [PhaBOX 2](https://github.com/KennthShang/PhaBOX), which is more user-friendly. In the new version, PhaGCN is generalized to all kinds of viruses, more than just phages. Hope you will enjoy it. This folder will be no longer 
+- The program has been updated and moved to [PhaBOX 2](https://github.com/KennthShang/PhaBOX), which is more user-friendly. In the new version, PhaGCN is generalized to all kinds of viruses, more than just phages. Hope you will enjoy it. This folder will no longer be maintained
 
 
 ### updates (December 23,2024)
