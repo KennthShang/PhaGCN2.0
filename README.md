@@ -3,7 +3,10 @@
 - The program has been updated and moved to [PhaBOX 2](https://github.com/KennthShang/PhaBOX), which is more user-friendly. In the new version, PhaGCN is generalized to all kinds of viruses, more than just phages. Hope you will enjoy it. This folder will no longer be maintained
 
 
-### updates (December 23,2024)
+
+
+
+### updates 
  
 implemented updates: 
  
@@ -19,23 +22,18 @@ implemented updates:
  
    <img src="https://wenguang.oss-cn-hangzhou.aliyuncs.com/figure/image-20241218170530956.png" style="zoom:50%;" />
 
-## PhaGCN2
 
-PhaGCN2 is a GCN based model, which can learn the species masking feature via deep learning classifier, for new virus taxonomy classification. To use PhaGCN2, you only need to input your contigs to the program.
-
-
-
-# PhaGCN2.3 newly update
+### PhaGCN2.3 newly update
 Update Log (August 29, 2024)
 * Our database has now been updated based on the latest [ICTV classification tables](https://ictv.global/sites/default/files/VMR/VMR_MSL39.v1_20240912.xlsx). (Special note: The new ICTV classification database is nearly 5000 more than the previous version. This caused the program to run nearly twice as slowly as before. We are trying to optimize the basic algorithm to improve the classification speed. )
 * The output file path parameter has been added. `--outpath` is the output file path of your result.
 *  The classification results now include the full path of the classification information (notice: not all viruses have a complete taxonomic path, all classification paths strictly match the classification criteria of ICTV. r:Realm, sr:Subrealm, k:Kingdom, sk:Subkingdom, p:Phylum, sp:Subphylum, c:Class, sc:Subclass, o:Order, so:Suborder, f:Family, sf:Subfamily ,g:Genus). 
 
-# PhaGCN2.2 newly update
+### PhaGCN2.2 newly update
 To better show the results of the network result, we can now export the total network file **final_network.ntw**. 
 In order to distinguish the test points of different batches, the test node ID are renamed as "test"+ betches number +sequence ID,such as "test_0_NC_001825.1".
 
-# PhaGCN2.1 newly update
+### PhaGCN2.1 newly update
 Our database has now been updated based on the latest [ICTV classification tables](https://ictv.global/filebrowser/download/585).
 In order to make it easier for users to view the sequence classification in our database, we put the specific sequence information at **database/VMR_based_on_ICTV.csv**
 Due to changes to Caudoviricetes in the new version of ICTV(remove Siphoviridae,Myoviridae and Podoviridae), we have two extension of the methods:
@@ -49,7 +47,7 @@ For PhaGCN2.0, there maybe some misclassifications in some genus or subfamilies 
 
 
 
-# Required Dependencies
+### Required Dependencies
 * Python 3.x
 * Numpy
 * Pytorch
@@ -64,7 +62,7 @@ If you want to use the gpu to accelerate the program:(if you want to train your 
 * cuda 10.1
 * Pytorch-gpu
 
-# An easiler way to install
+### An easiler way to install
 We recommend you to install all the package with Anaconda.
 After cloning this respository, you can use anaconda to install the **environment.yaml**. This will install all packages you need with gpu mode (make sure you have installed cuda on your system).
 We recommend you to install all the package with Anaconda.The command that you need to run is 
