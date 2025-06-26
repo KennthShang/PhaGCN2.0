@@ -2,7 +2,7 @@
 
 This folder will no longer be maintained. The software currently maintains two successor versions:  [PhaBOX 2](https://github.com/KennthShang/PhaBOX) and [PhaGCN3](https://github.com/xiahaolong/PhaGCN3).
 
-*  [PhaBOX 2](https://github.com/KennthShang/PhaBOX), concentrating on the sequence processing workflow from virus identification to classification/lifestyle/Host prediction.
+*  [PhaBOX 2](https://github.com/KennthShang/PhaBOX), concentrating on the sequence processing workflow from virus identification to taxonomy/lifestyle/Host prediction.
 *  [PhaGCN3](https://github.com/xiahaolong/PhaGCN3) focusing on the visualization of network graphs.
 
 
