@@ -2,10 +2,11 @@
 
 This folder will no longer be maintained. The software currently maintains two successor versions:  [PhaBOX 2](https://github.com/KennthShang/PhaBOX) and [PhaGCN3](https://github.com/xiahaolong/PhaGCN3).
 
-*  [PhaGCN3](https://github.com/xiahaolong/PhaGCN3) is an upgraded version of PhaGCN2, focusing on the visualization of network graphs and the exploration of potential virus clustering.
-*  [PhaBOX 2](https://github.com/KennthShang/PhaBOX) is a continuation of PhaGCN, concentrating on the sequence processing workflow from virus identification to classification.
+*  [PhaBOX 2](https://github.com/KennthShang/PhaBOX), concentrating on the sequence processing workflow from virus identification to classification/lifestyle/Host prediction.
+*  [PhaGCN3](https://github.com/xiahaolong/PhaGCN3) focusing on the visualization of network graphs.
 
-Both tools are capable of classifying to all kinds of viruses, with ongoing active development and maintenance ensuring continuous performance enhancements. We hope you find them valuable for your virological research needs.
+
+Both tools are capable of classifying to all kinds of viruses and provide information for candidate novel virus operational taxonomic units, with ongoing active development and maintenance ensuring continuous performance enhancements. We hope you find them valuable for your virological research needs.
 
 
 
